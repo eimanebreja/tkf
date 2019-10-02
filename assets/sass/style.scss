@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Italianno");
+
+@font-face {
+    font-family: "Antro_Vectra";
+    src:
+        url("../fonts/Antro_Vectra.otf");
+}
+
+@import "components/navbar";
+@import "components/top";
+@import "components/message";
+@import "components/interview-sub";
+@import "components/culture";
+@import "components/recruit";
+@import "components/interview-list";
+@import "components/footer";

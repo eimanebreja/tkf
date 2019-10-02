@@ -1,0 +1,2678 @@
+// Message-Page
+.message-header-content {
+  position: relative;
+
+  .message-header-text-title {
+    padding-left: 20px;
+
+    p {
+      font-weight: 600;
+      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+      color: #51c5d0;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .message-header-bg {
+    padding: 0px 55px 0px 55px;
+
+    .message-header-bg-content {
+      background-image: url("../images/pc/message-image1.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 100px 200px 300px 50px;
+      width: 100%;
+      height: 100px;
+
+      .message-header-bg-content-text {
+        p {
+          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+          color: rgba(255, 255, 255, 0.596);
+          font-weight: 900;
+          font-size: 90px;
+        }
+      }
+
+      .message-header-bg-content-text2 {
+        margin-top: -110px;
+
+        p {
+          color: #51c5d0;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .message-header-gray-background {
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    z-index: -999;
+
+    .message-triangle {
+      width: 0;
+      height: 0;
+      border-top: 500px solid #eee;
+      border-left: 800px solid transparent;
+    }
+  }
+
+  .message-header-button-nav {
+    position: absolute;
+    right: 0px;
+    top: -15px;
+
+    .message-menu-button {
+      background-color: #51c5d0;
+      height: 130px;
+      width: 130px;
+      padding: 40px 20px 20px 40px;
+
+      img {
+        width: 70%;
+      }
+
+      i {
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+      }
+    }
+  }
+
+  .message-header-button-entry {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+
+    .message-entry-button {
+      background-color: white;
+      height: 130px;
+      width: 130px;
+      padding: 30px 20px 20px 35px;
+
+      img {
+        padding-left: 10px;
+        text-align: center;
+        width: 70%;
+      }
+
+      i {
+        color: #51c5d0;
+        font-size: 35px;
+        font-weight: 100;
+      }
+
+      p {
+        text-align: center;
+        font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        color: #51c5d0;
+        line-height: 0.5px;
+        font-size: 17px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .message-header-text-left {
+    position: absolute;
+    left: -59px;
+    bottom: 50px;
+
+    .message-header-text-left-content {
+      -ms-transform: rotate(90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(90deg);
+      /* Safari 3-8 */
+      transform: rotate(90deg);
+      display: flex;
+      flex-direction: row;
+
+      .message-line {
+        width: 70px;
+        height: 18px;
+        border-bottom: 1px solid black;
+      }
+
+      .message-text-left {
+        padding-left: 15px;
+
+        p {
+          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+.message-section-1 {
+  margin-top: -90px;
+
+  .message-section-1-bg {
+    position: absolute;
+    background-image: url("../images/pc/blue-green-bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding: 300px 100px 100px 100px;
+    width: 100%;
+    height: 1160px;
+
+    .container {
+      .message-container-content {
+        .message-container-flex {
+          display: flex;
+          flex-direction: row;
+
+          .message-people-signature {
+            flex-basis: 45%;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            .message-people {
+              img {
+                width: 110%;
+                height: auto;
+              }
+            }
+
+            .message-signature {
+              .signature {
+                -ms-transform: rotate(-20deg);
+                /* IE 9 */
+                -webkit-transform: rotate(-20deg);
+                /* Safari 3-8 */
+                transform: rotate(-20deg);
+                padding-left: 50px;
+                margin-top: -70px;
+
+                p {
+                  font-family: "Antro_Vectra";
+                  color: white;
+                  font-size: 50px;
+                  font-weight: 100;
+                  letter-spacing: 3px;
+                }
+              }
+
+              .our-style-area {
+                margin-left: 10px;
+                margin-top: -80px;
+                text-align: left;
+                z-index: 10;
+                position: absolute;
+
+                img {
+                  width: 70%;
+                }
+              }
+
+            }
+          }
+
+          .message-content-text-info {
+            flex-basis: 57%;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            .message-content-text {
+              padding-left: 90px;
+
+              .message-title {
+                p {
+                  font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                  font-size: 15px;
+                  color: white;
+
+                  &.title2 {
+                    margin-top: -10px;
+                  }
+                }
+
+                hr {
+                  max-width: 90%;
+                  margin: -10px 0px 10px 0px;
+                  border: 0.5px solid white;
+                }
+              }
+
+              .message-title-content {
+                p {
+                  font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                  color: white;
+                  font-size: 12px;
+
+                  &.title-content1 {}
+
+                  &.title-content2 {
+                    margin-top: -10px;
+                  }
+
+                  &.title-content3 {
+                    margin-top: -10px;
+                  }
+                }
+              }
+            }
+
+            .message-content-info {
+              margin-top: 20px;
+              margin-left: -35px;
+
+              .white-background {
+                background-color: white;
+                padding: 30px 20px 20px 30px;
+                width: 110%;
+                height: 350px;
+
+                .white-text-title {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: #51c5d0;
+                    font-weight: 550;
+                    text-align: center;
+
+                    &.text-title1 {
+                      font-size: 18px;
+                    }
+
+                    &.text-title2 {
+                      margin-top: -15px;
+                      font-size: 18px;
+                    }
+                  }
+                }
+
+                .white-text-body {
+                  p {
+                    text-align: center;
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: black;
+                    font-size: 12px;
+
+                    &.body-1 {}
+
+                    &.body-2 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-3 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-4 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-5 {}
+
+                    &.body-6 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-7 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-8 {
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.message-section-2 {
+  margin-top: 860px;
+  padding-right: 70px;
+  margin-bottom: -40px;
+
+  .message-section-2-bg {
+    position: relative;
+    background-image: url("../images/pc/gray2.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding: 300px 20px 100px 100px;
+    width: 100%;
+    height: 890px;
+
+    .container {
+      .message-container-content {
+        margin-top: -250px;
+
+        .message-container-flex {
+          display: flex;
+          flex-direction: row-reverse;
+
+          .message-people-signature {
+            flex-basis: 45%;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            .message-people {
+              img {
+                width: 120%;
+                height: auto;
+              }
+            }
+
+            .message-signature {
+              .signature {
+                -ms-transform: rotate(-20deg);
+                /* IE 9 */
+                -webkit-transform: rotate(-20deg);
+                /* Safari 3-8 */
+                transform: rotate(-20deg);
+                padding-left: 0px;
+                margin-top: -120px;
+
+                p {
+                  font-family: "Antro_Vectra";
+                  color: #51c5d0;
+                  font-size: 50px;
+                  font-weight: 100;
+                  letter-spacing: 5px;
+                }
+              }
+
+              .our-style-area-blue {
+                margin-left: -70px;
+                margin-top: -110px;
+                text-align: left;
+                z-index: 10;
+                position: absolute;
+
+                img {
+                  width: 70%;
+                }
+              }
+            }
+          }
+
+          .message-content-text-info {
+            flex-basis: 55%;
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            .message-content-info {
+              margin-top: 130px;
+              margin-left: -55px;
+
+              .white-background {
+                background-color: white;
+                padding: 30px 20px 20px 30px;
+                width: 110%;
+                height: 380px;
+
+                .white-text-title {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: #51c5d0;
+                    text-align: center;
+                    font-weight: 550;
+
+                    &.text-title1 {
+                      font-size: 17px;
+                    }
+
+                    &.text-title2 {
+                      margin-top: -15px;
+                      font-size: 17px;
+                    }
+                  }
+                }
+
+                .white-text-body {
+                  padding-top: 10px;
+
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: black;
+                    font-size: 12px;
+                    text-align: center;
+
+                    &.body-1 {}
+
+                    &.body-2 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-3 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-4 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-5 {}
+
+                    &.body-6 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-7 {
+                      margin-top: -10px;
+                    }
+
+                    &.body-8 {
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1750px) and (max-width: 2000px) {
+
+  // Message-Page
+  .message-header-content {
+    position: relative;
+
+    .message-header-text-title {
+      padding-left: 20px;
+
+      p {
+        padding: 24px 0px 24px 0px;
+        margin: 0;
+        color: #51c5d0;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+      }
+    }
+
+    .message-header-bg {
+      padding: 0px 75px 0px 75px;
+
+      .message-header-bg-content {
+        background-image: url("../images/pc/message-image1.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -moz-background-size: cover;
+        padding: 150px 200px 150px 100px;
+        width: 100%;
+        height: auto;
+
+        .message-header-bg-content-text {
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: rgba(255, 255, 255, 0.596);
+            font-weight: 900;
+            font-size: 5vw;
+          }
+        }
+
+        .message-header-bg-content-text2 {
+          margin-top: -80px;
+
+          p {
+            color: #51c5d0;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+
+    .message-header-gray-background {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+      z-index: -999;
+
+      .message-triangle {
+        width: 0;
+        height: 0;
+        border-top: 600px solid #eee;
+        border-left: 1250px solid transparent;
+      }
+    }
+
+    .message-header-button-nav {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+
+      .message-menu-button {
+        background-color: #51c5d0;
+        height: 160px;
+        width: 160px;
+        padding: 50px 20px 20px 40px;
+
+        img {
+          width: 70%;
+        }
+
+        i {
+          color: white;
+          font-size: 40px;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .message-header-button-entry {
+      position: absolute;
+      right: 0px;
+      top: 140px;
+
+      .message-entry-button {
+        background-color: white;
+        height: 160px;
+        width: 160px;
+        padding: 20px 20px 20px 29px;
+
+        img {
+          padding-left: 10px;
+          text-align: center;
+          width: 70%;
+        }
+
+        i {
+          color: #51c5d0;
+          font-size: 35px;
+          font-weight: 100;
+        }
+
+        p {
+          text-align: center;
+          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+          color: #51c5d0;
+          line-height: 0.5px;
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .message-header-text-left {
+      position: absolute;
+      left: -100px;
+      bottom: 50px;
+
+      .message-header-text-left-content {
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Safari 3-8 */
+        transform: rotate(90deg);
+        display: flex;
+        flex-direction: row;
+
+        .message-line {
+          width: 70px;
+          height: 18px;
+          border-bottom: 1px solid black;
+        }
+
+        .message-text-left {
+          padding-left: 15px;
+
+          p {
+            letter-spacing: 3px;
+            color: rgba(0, 0, 0, 0.432);
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .message-section-1 {
+    margin-top: -120px;
+
+    .message-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/blue-green-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 300px 100px 100px 100px;
+      width: 100%;
+      height: 1490px;
+
+      .container {
+        .message-container-content {
+          .message-container-flex {
+            display: flex;
+            flex-direction: row;
+
+            .message-people-signature {
+              flex-basis: 45%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-people {
+                img {
+                  width: 110%;
+                  height: auto;
+                }
+              }
+
+              .message-signature {
+                .signature {
+                  -ms-transform: rotate(-20deg);
+                  /* IE 9 */
+                  -webkit-transform: rotate(-20deg);
+                  /* Safari 3-8 */
+                  transform: rotate(-20deg);
+                  padding-left: 70px;
+                  margin-top: -130px;
+
+                  p {
+                    font-family: "Antro_Vectra";
+                    color: white;
+                    font-size: 80px;
+                    font-weight: 100;
+                    letter-spacing: 3px;
+                  }
+                }
+
+                .our-style-area {
+                  position: absolute;
+                  z-index: 10;
+                  padding-right: 10px;
+                  text-align: right;
+                  margin-top: -100px;
+
+                  img {
+                    width: 80%;
+                  }
+                }
+              }
+            }
+
+            .message-content-text-info {
+              flex-basis: 55%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-content-text {
+                padding-left: 140px;
+
+                .message-title {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    font-size: 22px;
+                    color: white;
+
+                    &.title2 {
+                      margin-top: -20px;
+                    }
+                  }
+
+                  hr {
+                    max-width: 90%;
+                    margin: -10px 0px 10px 0px;
+                    border: 0.5px solid white;
+                  }
+                }
+
+                .message-title-content {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: white;
+                    font-size: 15px;
+
+                    &.title-content1 {}
+
+                    &.title-content2 {
+                      margin-top: -10px;
+                    }
+
+                    &.title-content3 {
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+
+              .message-content-info {
+                margin-top: 50px;
+                margin-left: -35px;
+
+                .white-background {
+                  background-color: white;
+                  padding: 20px 20px 20px 50px;
+                  width: 110%;
+                  height: 480px;
+
+                  .white-text-title {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: #51c5d0;
+
+                      &.text-title1 {
+                        font-weight: 550;
+                        font-size: 25px;
+                      }
+
+                      &.text-title2 {
+                        font-weight: 550;
+                        margin-top: -15px;
+                        font-size: 25px;
+                      }
+                    }
+                  }
+
+                  .white-text-body {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: black;
+                      font-size: 16px;
+
+                      &.body-1 {}
+
+                      &.body-2 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-3 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-4 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-5 {}
+
+                      &.body-6 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-7 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-8 {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-2 {
+    margin-top: 1000px;
+    padding-right: 50px;
+    margin-bottom: -40px;
+
+    .message-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/gray2.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 500px 100px 100px 100px;
+      width: 100%;
+      height: 1220px;
+
+      .container {
+        .message-container-content {
+          margin-top: -250px;
+
+          .message-container-flex {
+            display: flex;
+            flex-direction: row-reverse;
+
+            .message-people-signature {
+              flex-basis: 45%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-people {
+                img {
+                  width: 110%;
+                  height: auto;
+                }
+              }
+
+              .message-signature {
+                .signature {
+                  -ms-transform: rotate(-20deg);
+                  /* IE 9 */
+                  -webkit-transform: rotate(-20deg);
+                  /* Safari 3-8 */
+                  transform: rotate(-20deg);
+                  padding-left: 0px;
+                  margin-top: -120px;
+
+                  p {
+                    font-family: "Antro_Vectra";
+                    color: #51c5d0;
+                    font-size: 80px;
+                    font-weight: 100;
+                    letter-spacing: 5px;
+                  }
+                }
+
+                .our-style-area-blue {
+                  margin-left: -70px;
+                  margin-top: -170px;
+                  text-align: left;
+                  z-index: 10;
+                  position: absolute;
+
+                  img {
+                    width: 90%;
+                  }
+                }
+
+
+              }
+            }
+
+            .message-content-text-info {
+              flex-basis: 55%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-content-info {
+                margin-top: 140px;
+                margin-left: -55px;
+
+                .white-background {
+                  background-color: white;
+                  padding: 40px 40px 40px 50px;
+                  width: 110%;
+                  height: 480px;
+
+                  .white-text-title {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: #51c5d0;
+
+                      &.text-title1 {
+                        font-size: 25px;
+                        font-weight: 550;
+                      }
+
+                      &.text-title2 {
+                        margin-top: -15px;
+                        font-size: 25px;
+                        font-weight: 550;
+                      }
+                    }
+                  }
+
+                  .white-text-body {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: black;
+                      font-size: 16px;
+
+                      &.body-1 {}
+
+                      &.body-2 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-3 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-4 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-5 {}
+
+                      &.body-6 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-7 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-8 {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1285px) {
+  .message-section-1 {
+    margin-top: -90px;
+
+    .message-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/blue-green-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 200px 100px 100px 50px;
+      width: 100%;
+      height: 1050px;
+
+      .container {
+        .message-container-content {
+          .message-container-flex {
+            display: flex;
+            flex-direction: row;
+
+            .message-people-signature {
+              flex-basis: 45%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-people {
+                img {
+                  width: 110%;
+                  height: auto;
+                }
+              }
+
+              .message-signature {
+                .signature {
+                  -ms-transform: rotate(-20deg);
+                  /* IE 9 */
+                  -webkit-transform: rotate(-20deg);
+                  /* Safari 3-8 */
+                  transform: rotate(-20deg);
+                  padding-left: 50px;
+                  margin-top: -70px;
+
+                  p {
+                    font-family: "Antro_Vectra";
+                    color: white;
+                    font-size: 50px;
+                    font-weight: 100;
+                    letter-spacing: 3px;
+                  }
+                }
+
+                .our-style-area {
+                  margin-left: 40px;
+                  margin-top: -80px;
+                  text-align: left;
+                  z-index: 10;
+                  position: absolute;
+
+                  img {
+                    width: 60%;
+                  }
+                }
+
+              }
+            }
+
+            .message-content-text-info {
+              flex-basis: 58%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-content-text {
+                padding-left: 90px;
+
+                .message-title {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    font-size: 15px;
+                    color: white;
+
+                    &.title2 {
+                      margin-top: -10px;
+                    }
+                  }
+
+                  hr {
+                    max-width: 90%;
+                    margin: -10px 0px 10px 0px;
+                    border: 0.5px solid white;
+                  }
+                }
+
+                .message-title-content {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: white;
+                    font-size: 10px;
+
+                    &.title-content1 {}
+
+                    &.title-content2 {
+                      margin-top: -10px;
+                    }
+
+                    &.title-content3 {
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+
+              .message-content-info {
+                margin-top: 20px;
+                margin-left: -35px;
+
+                .white-background {
+                  background-color: white;
+                  padding: 20px 20px 20px 30px;
+                  width: 110%;
+                  height: 320px;
+
+                  .white-text-title {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: #51c5d0;
+
+                      &.text-title1 {
+                        font-size: 17px;
+                      }
+
+                      &.text-title2 {
+                        margin-top: -15px;
+                        font-size: 17px;
+                      }
+                    }
+                  }
+
+                  .white-text-body {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: black;
+                      font-size: 12px;
+
+                      &.body-1 {}
+
+                      &.body-2 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-3 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-4 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-5 {}
+
+                      &.body-6 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-7 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-8 {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-2 {
+    margin-top: 750px;
+    padding-right: 90px;
+    margin-bottom: -40px;
+
+    .message-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/gray2.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 300px 0px 100px 100px;
+      width: 100%;
+      height: 750px;
+      margin-bottom: 30px;
+
+      .container {
+        .message-container-content {
+          margin-top: -280px;
+
+          .message-container-flex {
+            display: flex;
+            flex-direction: row-reverse;
+
+            .message-people-signature {
+              flex-basis: 45%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-people {
+                img {
+                  width: 120%;
+                  height: auto;
+                }
+              }
+
+              .message-signature {
+                .signature {
+                  -ms-transform: rotate(-20deg);
+                  /* IE 9 */
+                  -webkit-transform: rotate(-20deg);
+                  /* Safari 3-8 */
+                  transform: rotate(-20deg);
+                  padding-left: 0px;
+                  margin-top: -120px;
+
+                  p {
+                    font-family: "Antro_Vectra";
+                    color: #51c5d0;
+                    font-size: 50px;
+                    font-weight: 100;
+                    letter-spacing: 5px;
+                  }
+                }
+
+                .our-style-area-blue {
+                  margin-left: -70px;
+                  margin-top: -110px;
+                  text-align: left;
+                  z-index: 10;
+                  position: absolute;
+
+                  img {
+                    width: 70%;
+                  }
+                }
+              }
+            }
+
+            .message-content-text-info {
+              flex-basis: 55%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-content-info {
+                margin-top: 130px;
+                margin-left: -55px;
+
+                .white-background {
+                  background-color: white;
+                  padding: 30px 20px 20px 30px;
+                  width: 110%;
+                  height: 330px;
+
+                  .white-text-title {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: #51c5d0;
+                      text-align: center;
+                      font-weight: 550;
+
+                      &.text-title1 {
+                        font-size: 17px;
+                      }
+
+                      &.text-title2 {
+                        margin-top: -15px;
+                        font-size: 17px;
+                      }
+                    }
+                  }
+
+                  .white-text-body {
+                    padding-top: 0px;
+
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: black;
+                      font-size: 12px;
+                      text-align: center;
+
+                      &.body-1 {}
+
+                      &.body-2 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-3 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-4 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-5 {}
+
+                      &.body-6 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-7 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-8 {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  // Message-Page Tablet
+  .message-header-content {
+    position: relative;
+
+    .message-header-text-title {
+      padding-left: 20px;
+
+      p {
+        font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        color: #51c5d0;
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+    }
+
+    .message-header-bg {
+      padding: 0px 55px 0px 55px;
+
+      .message-header-bg-content {
+        background-image: url("../images/pc/message-image1.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -moz-background-size: cover;
+        padding: 20px 10px 20px 10px;
+        width: 100%;
+        height: auto;
+
+        .message-header-bg-content-text {
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: rgba(255, 255, 255, 0.596);
+            font-weight: 900;
+            font-size: 70px;
+          }
+        }
+
+        .message-header-bg-content-text2 {
+          margin-top: -80px;
+
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: #51c5d0;
+            font-size: 19px;
+          }
+        }
+      }
+    }
+
+    .message-header-gray-background {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+      z-index: -999;
+
+      .message-triangle {
+        width: 0;
+        height: 0;
+        border-top: 350px solid #eee;
+        border-left: 500px solid transparent;
+      }
+    }
+
+    .message-header-button-nav {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+
+      .message-menu-button {
+        background-color: #51c5d0;
+        height: 80px;
+        width: 80px;
+        padding: 25px 20px 20px 25px;
+
+        img {
+          width: 100%;
+        }
+
+        i {
+          color: white;
+          font-size: 25px;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .message-header-button-entry {
+      position: absolute;
+      right: 0px;
+      top: 65px;
+
+      .message-entry-button {
+        background-color: white;
+        height: 80px;
+        width: 80px;
+        padding: 15px 20px 20px 25px;
+
+        img {
+          width: 90%;
+        }
+
+        i {
+          color: #51c5d0;
+          font-size: 22px;
+          font-weight: 100;
+        }
+
+        p {
+          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+          color: #51c5d0;
+          line-height: 0.5px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .message-header-text-left {
+      position: absolute;
+      left: -59px;
+      bottom: 50px;
+
+      .message-header-text-left-content {
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Safari 3-8 */
+        transform: rotate(90deg);
+        display: flex;
+        flex-direction: row;
+
+        .message-line {
+          width: 70px;
+          height: 18px;
+          border-bottom: 1px solid black;
+        }
+
+        .message-text-left {
+          padding-left: 15px;
+
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-1 {
+    margin-top: -100px;
+
+    .message-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/blue-green-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 250px 0px 100px 0px;
+      width: 100%;
+      height: 850px;
+
+      .container {
+        .message-container-content {
+          .message-container-flex {
+            display: flex;
+            flex-direction: row;
+
+            .message-people-signature {
+              flex-basis: 45%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-people {
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .message-signature {
+                .signature {
+                  -ms-transform: rotate(-20deg);
+                  /* IE 9 */
+                  -webkit-transform: rotate(-20deg);
+                  /* Safari 3-8 */
+                  transform: rotate(-20deg);
+                  padding-left: 30px;
+                  margin-top: -80px;
+
+                  p {
+
+                    font-family: "Allura", cursive;
+                    font-family: "Italianno", cursive;
+                    color: white;
+                    font-size: 60px;
+                    font-weight: 100;
+                    letter-spacing: 3px;
+                  }
+                }
+
+                .our-style-area {
+                  margin-left: 0px;
+                  margin-top: -110px;
+                  text-align: left;
+                  z-index: 10;
+                  position: absolute;
+
+                  img {
+                    width: 60%;
+                  }
+                }
+              }
+            }
+
+            .message-content-text-info {
+              flex-basis: 55%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-content-text {
+                padding-left: 40px;
+
+                .message-title {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    font-size: 12px;
+                    color: white;
+
+                    &.title2 {
+                      margin-top: -10px;
+                    }
+                  }
+
+                  hr {
+                    max-width: 90%;
+                    margin: -10px 0px 10px 0px;
+                    border: 0.5px solid white;
+                  }
+                }
+
+                .message-title-content {
+                  p {
+                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                    color: white;
+                    font-size: 9px;
+
+                    &.title-content1 {}
+
+                    &.title-content2 {
+                      margin-top: -10px;
+                    }
+
+                    &.title-content3 {
+                      margin-top: -10px;
+                    }
+                  }
+                }
+              }
+
+              .message-content-info {
+                margin-top: 20px;
+                margin-left: -35px;
+
+                .white-background {
+                  background-color: white;
+                  padding: 20px 20px 20px 30px;
+                  width: 100%;
+                  height: auto;
+
+                  .white-text-title {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: #51c5d0;
+
+                      &.text-title1 {
+                        font-size: 14px;
+                      }
+
+                      &.text-title2 {
+                        margin-top: -15px;
+                        font-size: 14px;
+                      }
+                    }
+                  }
+
+                  .white-text-body {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: black;
+                      font-size: 9px;
+
+                      &.body-1 {}
+
+                      &.body-2 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-3 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-4 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-5 {}
+
+                      &.body-6 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-7 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-8 {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-2 {
+    margin-top: 700px;
+    padding-right: 50px;
+    margin-bottom: -40px;
+
+    .message-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/gray2.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 300px 10px 100px 20px;
+      width: 100%;
+      height: 720px;
+
+      .container {
+        .message-container-content {
+          margin-top: -150px;
+
+          .message-container-flex {
+            display: flex;
+            flex-direction: row-reverse;
+
+            .message-people-signature {
+              flex-basis: 50%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-people {
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .message-signature {
+                .signature {
+                  -ms-transform: rotate(-20deg);
+                  /* IE 9 */
+                  -webkit-transform: rotate(-20deg);
+                  /* Safari 3-8 */
+                  transform: rotate(-20deg);
+                  padding-left: 0px;
+                  margin-top: -120px;
+
+                  p {
+                    font-family: "Allura", cursive;
+                    font-family: "Italianno", cursive;
+                    color: #51c5d0;
+                    font-size: 80px;
+                    font-weight: 100;
+                    letter-spacing: 5px;
+                  }
+                }
+
+                .our-style-area-blue {
+                  margin-left: 0px;
+                  margin-top: -80px;
+                  text-align: left;
+                  z-index: 10;
+                  position: absolute;
+
+                  img {
+                    width: 80%;
+                  }
+                }
+
+
+              }
+            }
+
+            .message-content-text-info {
+              flex-basis: 45%;
+              flex-grow: 0;
+              flex-shrink: 0;
+
+              .message-content-info {
+                margin-top: 130px;
+                margin-left: -55px;
+
+                .white-background {
+                  background-color: white;
+                  padding: 20px 20px 20px 30px;
+                  width: 110%;
+                  height: auto;
+
+                  .white-text-title {
+                    p {
+                      color: #51c5d0;
+
+                      &.text-title1 {
+                        font-size: 14px;
+                      }
+
+                      &.text-title2 {
+                        margin-top: -15px;
+                        font-size: 13px;
+                      }
+                    }
+                  }
+
+                  .white-text-body {
+                    p {
+                      font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                      color: black;
+                      font-size: 9px;
+
+                      &.body-1 {}
+
+                      &.body-2 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-3 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-4 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-5 {}
+
+                      &.body-6 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-7 {
+                        margin-top: -10px;
+                      }
+
+                      &.body-8 {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// End of Message page Tablet
+
+
+
+@media only screen and (min-width : 376px) and (max-width : 736px) {
+  /* STYLES GO HERE */
+
+  .message-header-content {
+    position: relative;
+
+    .message-header-text-title {
+      padding-left: 20px;
+
+      p {
+        font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        color: #51c5d0;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+    }
+
+    .message-header-bg {
+      padding: 0px 0px 0px 0px;
+
+      .message-header-bg-content {
+        background-image: url("../images/sp/message/4.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -moz-background-size: cover;
+        padding: 20px 10px 50px 10px;
+        width: 100%;
+        height: auto;
+
+        .message-header-bg-content-text {
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: rgba(255, 255, 255, 0.596);
+            font-weight: 900;
+            font-size: 50px;
+          }
+        }
+
+        .message-header-bg-content-text2 {
+          margin-top: -60px;
+
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: #51c5d0;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .message-header-gray-background {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+      z-index: -999;
+
+      .message-triangle {
+        width: 0;
+        height: 0;
+        border-top: 350px solid #eee;
+        border-left: 250px solid transparent;
+      }
+    }
+
+    .message-header-button-nav {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+
+      .message-menu-button {
+        background-color: #51c5d0;
+        height: 60px;
+        width: 60px;
+        padding: 15px 15px 15px 15px;
+
+        img {
+          width: 100%;
+        }
+
+        i {
+          color: white;
+          font-size: 25px;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .message-header-button-entry {
+      position: absolute;
+      right: 0px;
+      top: 40px;
+
+      .message-entry-button {
+        background-color: white;
+        height: 60px;
+        width: 60px;
+        padding: 5px 5px 5px 2px;
+
+
+        img {
+          width: 90%;
+        }
+
+        i {
+          color: #51c5d0;
+          font-size: 20px;
+          font-weight: 100;
+        }
+
+        p {
+          padding-left: 2px;
+          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+          color: #51c5d0;
+          margin: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .message-header-text-left {
+      visibility: hidden;
+      position: absolute;
+      left: -59px;
+      bottom: 50px;
+
+      .message-header-text-left-content {
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Safari 3-8 */
+        transform: rotate(90deg);
+        display: flex;
+        flex-direction: row;
+
+        .message-line {
+          width: 70px;
+          height: 18px;
+          border-bottom: 1px solid black;
+        }
+
+        .message-text-left {
+          padding-left: 15px;
+
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-1-sp {
+    margin-top: -60px;
+
+    .message-section-1-bg-sp {
+      position: absolute;
+      background-image: url("../images/sp/message/5.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 120px 0px 10px 0px;
+      width: 100%;
+      height: 1190px;
+
+      .container {
+        .message-content-text {
+          padding-left: 10px;
+
+          .message-title {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              font-size: 14px;
+              color: white;
+
+              &.title2 {
+                margin-top: -10px;
+              }
+            }
+
+            hr {
+              max-width: 70%;
+              margin: -5px 0px 10px 0px;
+              border: 0.5px solid white;
+            }
+          }
+
+          .message-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: white;
+              font-size: 10px;
+
+              &.title-content1 {}
+
+              &.title-content2 {
+                margin-top: -5px;
+              }
+
+              &.title-content3 {
+                margin-top: -5px;
+              }
+            }
+          }
+        }
+      }
+
+      .message-people {
+        padding-top: 25px;
+
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+
+      .message-content-infos {
+        position: absolute;
+        margin-top: -40px;
+        padding-left: 30px;
+
+        .white-background {
+          background-color: white;
+          padding: 10px 20px 20px 30px;
+          width: 100%;
+          height: 340px;
+
+          .white-text-title {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: #51c5d0;
+              font-weight: 550;
+
+              &.text-title1 {
+                font-size: 17px;
+              }
+
+              &.text-title2 {
+                margin-top: -15px;
+                font-size: 17px;
+              }
+            }
+          }
+
+          .white-text-body {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: black;
+              font-size: 10px;
+
+              &.body-1 {
+                padding-top: 10px;
+              }
+
+              &.body-2 {
+                margin-top: -5px;
+              }
+
+              &.body-3 {
+                margin-top: -5px;
+              }
+
+              &.body-4 {
+                margin-top: -5px;
+              }
+
+              &.body-5 {
+                padding-top: 5px;
+              }
+
+              &.body-6 {
+                margin-top: -5px;
+              }
+
+              &.body-7 {
+                margin-top: -5px;
+              }
+
+              &.body-8 {
+                margin-top: -5px;
+              }
+            }
+          }
+
+          .message-signature {
+            margin-top: -10px;
+
+            .signature {
+              -ms-transform: rotate(-20deg);
+              /* IE 9 */
+              -webkit-transform: rotate(-20deg);
+              /* Safari 3-8 */
+              transform: rotate(-20deg);
+
+              p {
+                text-align: right;
+                font-family: "Antro_Vectra";
+                color: #24b1c4;
+                font-size: 40px;
+                font-weight: 100;
+                letter-spacing: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-2-sp {
+    margin-top: 1000px;
+    margin-bottom: -40px;
+
+    .message-section-2-bg-sp {
+      position: relative;
+      background-image: url("../images/sp/message/6.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 20px 0px 0px 0px;
+      width: 100%;
+      height: 880px;
+      margin-bottom: 40px;
+
+      .message-people {
+        padding-left: 50px;
+        padding-top: 25px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .message-content-bg-white {
+        .message-content-infos {
+          position: absolute;
+          margin-top: -40px;
+          padding-right: 30px;
+
+          .white-background {
+            background-color: white;
+            padding: 10px 20px 20px 30px;
+            width: 100%;
+            height: 340px;
+
+            .white-text-title {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #51c5d0;
+                font-weight: 550;
+
+                &.text-title1 {
+                  font-size: 17px;
+                }
+
+                &.text-title2 {
+                  margin-top: -15px;
+                  font-size: 17px;
+                }
+              }
+            }
+
+            .white-text-body {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: black;
+                font-size: 10px;
+
+                &.body-1 {
+                  padding-top: 10px;
+                }
+
+                &.body-2 {
+                  margin-top: -5px;
+                }
+
+                &.body-3 {
+                  margin-top: -5px;
+                }
+
+                &.body-4 {
+                  margin-top: -5px;
+                }
+
+                &.body-5 {
+                  padding-top: 5px;
+                }
+
+                &.body-6 {
+                  margin-top: -5px;
+                }
+
+                &.body-7 {
+                  margin-top: -5px;
+                }
+
+                &.body-8 {
+                  margin-top: -5px;
+                }
+              }
+            }
+          }
+
+          .message-signature {
+            padding-left: 50px;
+            margin-top: -50px;
+
+            .signature {
+              -ms-transform: rotate(-20deg);
+              /* IE 9 */
+              -webkit-transform: rotate(-20deg);
+              /* Safari 3-8 */
+              transform: rotate(-20deg);
+
+              p {
+                text-align: right;
+                font-family: "Antro_Vectra";
+                color: #24b1c4;
+                font-size: 40px;
+                font-weight: 100;
+                letter-spacing: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 375px) {
+
+  /* STYLES GO HERE */
+  .message-header-content {
+    position: relative;
+
+    .message-header-text-title {
+      padding-left: 20px;
+
+      p {
+        font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        color: #51c5d0;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+    }
+
+    .message-header-bg {
+      padding: 0px 0px 0px 0px;
+
+      .message-header-bg-content {
+        background-image: url("../images/sp/message/4.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -moz-background-size: cover;
+        padding: 20px 10px 50px 10px;
+        width: 100%;
+        height: auto;
+
+        .message-header-bg-content-text {
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: rgba(255, 255, 255, 0.596);
+            font-weight: 900;
+            font-size: 50px;
+          }
+        }
+
+        .message-header-bg-content-text2 {
+          margin-top: -60px;
+
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            color: #51c5d0;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .message-header-gray-background {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+      z-index: -999;
+
+      .message-triangle {
+        width: 0;
+        height: 0;
+        border-top: 350px solid #eee;
+        border-left: 250px solid transparent;
+      }
+    }
+
+    .message-header-button-nav {
+      position: absolute;
+      right: 0px;
+      top: -15px;
+
+      .message-menu-button {
+        background-color: #51c5d0;
+        height: 60px;
+        width: 60px;
+        padding: 15px 15px 15px 15px;
+
+        img {
+          width: 100%;
+        }
+
+        i {
+          color: white;
+          font-size: 25px;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .message-header-button-entry {
+      position: absolute;
+      right: 0px;
+      top: 40px;
+
+      .message-entry-button {
+        background-color: white;
+        height: 60px;
+        width: 60px;
+        padding: 5px 5px 5px 2px;
+
+
+        img {
+          width: 90%;
+        }
+
+        i {
+          color: #51c5d0;
+          font-size: 20px;
+          font-weight: 100;
+        }
+
+        p {
+          padding-left: 2px;
+          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+          color: #51c5d0;
+          margin: 0px;
+          font-size: 10px;
+        }
+      }
+    }
+
+
+    .message-header-text-left {
+      visibility: hidden;
+      position: absolute;
+      left: -59px;
+      bottom: 50px;
+
+      .message-header-text-left-content {
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Safari 3-8 */
+        transform: rotate(90deg);
+        display: flex;
+        flex-direction: row;
+
+        .message-line {
+          width: 70px;
+          height: 18px;
+          border-bottom: 1px solid black;
+        }
+
+        .message-text-left {
+          padding-left: 15px;
+
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-1-sp {
+    margin-top: -50px;
+
+    .message-section-1-bg-sp {
+      position: absolute;
+      background-image: url("../images/sp/message/5.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 90px 0px 10px 0px;
+      width: 100%;
+      height: 1030px;
+
+      .container {
+        .message-content-text {
+          padding-left: 10px;
+
+          .message-title {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              font-size: 12px;
+              color: white;
+
+              &.title2 {
+                margin-top: -10px;
+              }
+            }
+
+            hr {
+              max-width: 70%;
+              margin: -5px 0px 10px 0px;
+              border: 0.5px solid white;
+            }
+          }
+
+          .message-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: white;
+              font-size: 9px;
+
+              &.title-content1 {}
+
+              &.title-content2 {
+                margin-top: -5px;
+              }
+
+              &.title-content3 {
+                margin-top: -5px;
+              }
+            }
+          }
+        }
+      }
+
+      .message-people {
+        padding-top: 25px;
+
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+
+      .message-content-infos {
+        position: absolute;
+        margin-top: -40px;
+        padding-left: 30px;
+
+        .white-background {
+          background-color: white;
+          padding: 10px 20px 20px 30px;
+          width: 100%;
+          height: 300px;
+
+          .white-text-title {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: #51c5d0;
+              font-weight: 550;
+
+              &.text-title1 {
+                font-size: 17px;
+              }
+
+              &.text-title2 {
+                margin-top: -15px;
+                font-size: 17px;
+              }
+            }
+          }
+
+          .white-text-body {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: black;
+              font-size: 8.5px;
+
+              &.body-1 {
+                padding-top: 10px;
+              }
+
+              &.body-2 {
+                margin-top: -5px;
+              }
+
+              &.body-3 {
+                margin-top: -5px;
+              }
+
+              &.body-4 {
+                margin-top: -5px;
+              }
+
+              &.body-5 {
+                padding-top: 5px;
+              }
+
+              &.body-6 {
+                margin-top: -5px;
+              }
+
+              &.body-7 {
+                margin-top: -5px;
+              }
+
+              &.body-8 {
+                margin-top: -5px;
+              }
+            }
+          }
+
+          .message-signature {
+            margin-top: -20px;
+
+            .signature {
+              -ms-transform: rotate(-20deg);
+              /* IE 9 */
+              -webkit-transform: rotate(-20deg);
+              /* Safari 3-8 */
+              transform: rotate(-20deg);
+
+              p {
+                text-align: right;
+                font-family: "Antro_Vectra";
+                color: #24b1c4;
+                font-size: 40px;
+                font-weight: 100;
+                letter-spacing: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .message-section-2-sp {
+    margin-top: 900px;
+    margin-bottom: -40px;
+
+    .message-section-2-bg-sp {
+      position: relative;
+      background-image: url("../images/sp/message/6.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 20px 0px 0px 0px;
+      width: 100%;
+      height: 800px;
+      margin-bottom: 40px;
+
+      .message-people {
+        padding-left: 50px;
+        padding-top: 25px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .message-content-bg-white {
+        .message-content-infos {
+          position: absolute;
+          margin-top: -40px;
+          padding-right: 30px;
+
+          .white-background {
+            background-color: white;
+            padding: 10px 20px 20px 30px;
+            width: 100%;
+            height: 330px;
+
+            .white-text-title {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #51c5d0;
+                font-weight: 550;
+
+                &.text-title1 {
+                  font-size: 17px;
+                }
+
+                &.text-title2 {
+                  margin-top: -15px;
+                  font-size: 17px;
+                }
+              }
+            }
+
+            .white-text-body {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: black;
+                font-size: 8.5px;
+
+                &.body-1 {
+                  padding-top: 10px;
+                }
+
+                &.body-2 {
+                  margin-top: -5px;
+                }
+
+                &.body-3 {
+                  margin-top: -5px;
+                }
+
+                &.body-4 {
+                  margin-top: -5px;
+                }
+
+                &.body-5 {
+                  padding-top: 5px;
+                }
+
+                &.body-6 {
+                  margin-top: -5px;
+                }
+
+                &.body-7 {
+                  margin-top: -5px;
+                }
+
+                &.body-8 {
+                  margin-top: -5px;
+                }
+              }
+            }
+          }
+
+          .message-signature {
+            padding-left: 50px;
+            margin-top: -60px;
+
+            .signature {
+              -ms-transform: rotate(-20deg);
+              /* IE 9 */
+              -webkit-transform: rotate(-20deg);
+              /* Safari 3-8 */
+              transform: rotate(-20deg);
+
+              p {
+                text-align: right;
+                font-family: "Antro_Vectra";
+                color: #24b1c4;
+                font-size: 40px;
+                font-weight: 100;
+                letter-spacing: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

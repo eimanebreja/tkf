@@ -1,0 +1,96 @@
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: #24b1c4;
+    opacity: .9;
+    overflow-y: auto;
+    will-change: transform;
+    transition: 0.5s;
+
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    a {
+        font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+
+        :hover {
+            color: #f1f1f1;
+        }
+
+        :focus {
+            color: #f1f1f1;
+        }
+    }
+
+    .closebtn {
+        position: absolute;
+        font-size: 40px;
+        top: -5px;
+        right: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 1285px) {
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        background-color: #24b1c4;
+        opacity: .9;
+        overflow-x: hidden;
+        transition: 0.5s;
+
+        .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        a {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            padding: 8px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+
+            :hover {
+                color: #f1f1f1;
+            }
+
+            :focus {
+                color: #f1f1f1;
+            }
+        }
+
+        .closebtn {
+            position: absolute;
+            font-size: 40px;
+            top: -7px;
+            right: 8px;
+        }
+    }
+}
