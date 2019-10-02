@@ -1,0 +1,1849 @@
+// InterView Page
+
+
+.interview-section-1 {
+  margin-top: -90px;
+
+  .interview-section-1-bg {
+    position: absolute;
+    background-image: url("../images/pc/interview-bg-white.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding: 200px 10px 100px 10px;
+    width: 100%;
+    height: 1450px;
+
+
+    .container {
+      max-width: 70%;
+      margin: 0 auto;
+
+      .interview-section-1-title {
+        .interview-section-1-title-content {
+          p {
+            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+            text-align: center;
+            font-weight: 550;
+
+            &.title-content-1 {
+              font-size: 15px;
+            }
+
+            &.title-content-2 {
+              font-size: 15px;
+              margin-top: -10px;
+            }
+          }
+        }
+      }
+
+      .interview-section-1-body {
+        padding-top: 10px;
+
+        .interview-section-1-body-content {
+          .row-area {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .col-area {
+              flex-basis: 33%;
+              padding-left: 20px;
+
+              a {
+                .interview-image {
+                  padding-top: 15%;
+                  position: relative;
+
+                  .interview-image-content {
+                    overflow: hidden;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                      transition: transform .5s ease;
+                      margin-bottom: -5px;
+                    }
+                  }
+
+                  .interview-text-content {
+                    position: absolute;
+                    bottom: -6%;
+                    right: 7%;
+                    left: 7%;
+                    z-index: 900;
+                    margin: 0 auto;
+                    max-width: 100%;
+                    padding-right: 0px;
+
+                    .interview-text-content-bg {
+                      margin-top: 0px;
+                      background-color: rgba(255, 255, 255, 0.836);
+                      height: auto;
+                      padding: 10px 10px 10px 20px;
+
+                      .text-content-bg-flex {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        flex-wrap: nowrap;
+                        align-items: center;
+
+                        .description-text {
+                          flex-basis: 80%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.desc-1 {
+                              color: black;
+                              font-size: 10px;
+                            }
+
+                            &.desc-2 {
+                              color: black;
+                              margin-top: -8px;
+                              font-size: 10px;
+                            }
+
+                            &.desc-3 {
+                              letter-spacing: 1px;
+                              font-size: 17px;
+                              color: #24b1c4;
+                              margin-top: -2px;
+                            }
+
+                            &.desc-4 {
+                              font-weight: 100;
+                              margin-top: -10px;
+                              font-size: 14px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+
+                        .arrow-text {
+                          flex-basis: 20%;
+
+                          .arrow-text-content {
+                            padding-top: 0px;
+                            transition: .5s;
+
+                            i {
+                              font-size: 50px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+                      }
+
+                    }
+                  }
+                }
+
+                &:hover {
+                  .interview-image-content {
+                    overflow: hidden;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                      transform: scale(1.1);
+                    }
+                  }
+
+                  .interview-text-content {
+
+                    .interview-text-content-bg {
+                      margin-top: 0px;
+                      background-color: #24b1c4;
+                      height: auto;
+                      padding: 10px 10px 10px 20px;
+                      transition: .5s;
+
+                      .text-content-bg-flex {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+
+                        .description-text {
+                          flex-basis: 80%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.desc-1 {
+                              color: white;
+                              font-size: 10px;
+                            }
+
+                            &.desc-2 {
+                              color: white;
+                              margin-top: -8px;
+                              font-size: 10px;
+                            }
+
+                            &.desc-3 {
+                              letter-spacing: 1px;
+                              font-size: 17px;
+                              color: white;
+                              margin-top: -2px;
+                            }
+
+                            &.desc-4 {
+                              font-weight: 100;
+                              margin-top: -10px;
+                              font-size: 14px;
+                              color: white;
+                            }
+                          }
+                        }
+
+                        .arrow-text {
+                          flex-basis: 20%;
+
+                          .arrow-text-content {
+                            padding-top: 0px;
+                            padding-left: 20px;
+                            transition: .5s;
+
+                            i {
+                              font-size: 50px;
+                              color: white;
+                            }
+                          }
+                        }
+                      }
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.interview-section-2 {
+  margin-top: 1220px;
+  padding-right: 50px;
+  margin-bottom: -100px;
+
+  .interview-section-2-bg {
+    position: relative;
+    background-image: url("../images/pc/interview-bg-blue.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding: 50px 0px 10px 30px;
+    width: 100%;
+    z-index: -14;
+    height: 1300px;
+
+    .container {
+      .interview-section-2-body {
+        .interview-section-2-body-content {
+          .row {
+            .col {
+              .interview-image {
+                .interview-image-content {
+                  img {
+                    width: 95%;
+                    height: auto;
+                  }
+                }
+
+                .interview-text-content {
+                  position: relative;
+                  z-index: 900;
+                  margin: 0 auto;
+                  max-width: 90%;
+                  padding-right: 40px;
+
+                  .interview-text-content-bg {
+                    margin-top: -80px;
+                    margin-bottom: 40px;
+                    background-color: rgba(255, 255, 255, 0.836);
+                    height: 120px;
+                    padding: 5px 10px 10px 20px;
+
+                    .text-content-bg-flex {
+                      display: flex;
+                      flex-direction: row;
+                      flex-wrap: nowrap;
+
+                      .description-text {
+                        flex-basis: 80%;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                          &.desc-1 {
+                            color: black;
+                            font-size: 10px;
+                          }
+
+                          &.desc-2 {
+                            color: black;
+                            margin-top: -8px;
+                            font-size: 10px;
+                          }
+
+                          &.desc-3 {
+                            letter-spacing: 1px;
+                            font-size: 15px;
+                            color: #24b1c4;
+                            margin-top: -2px;
+                            font-weight: 550;
+                          }
+
+                          &.desc-4 {
+                            font-weight: 100;
+                            margin-top: -10px;
+                            font-size: 12px;
+                            color: #24b1c4;
+                            font-weight: 100;
+                          }
+                        }
+                      }
+
+                      .arrow-text {
+                        flex-basis: 20%;
+
+                        .arrow-text-content {
+                          padding-top: 30px;
+
+                          i {
+                            font-size: 50px;
+                            color: #24b1c4;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1750px) and (max-width: 2000px) {
+  // InterView Page
+
+
+  .interview-section-1 {
+    margin-top: -100px;
+
+    .interview-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/interview-bg-white.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 300px 50px 100px 50px;
+      width: 100%;
+      height: 1950px;
+
+      .container {
+        .interview-section-1-title {
+          .interview-section-1-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              text-align: center;
+
+              &.title-content-1 {
+                font-size: 18px;
+              }
+
+              &.title-content-2 {
+                font-size: 18px;
+                margin-top: -10px;
+              }
+            }
+          }
+        }
+
+        .interview-section-1-body {
+          padding-top: 30px;
+
+          .interview-section-1-body-content {
+            .row-area {
+              .col-area {
+                a {
+                  .interview-image {
+                    position: relative;
+
+                    .interview-image-content {
+                      overflow: hidden;
+
+                      img {
+                        width: 100%;
+                        height: auto;
+                        transition: transform .5s ease;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: absolute;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+                      padding-right: 0px;
+
+                      .interview-text-content-bg {
+                        margin-top: -100px;
+                        margin-bottom: 0px;
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 10px 10px 10px 20px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 16px;
+                              }
+
+                              &.desc-2 {
+                                color: black;
+                                margin-top: -14px;
+                                font-size: 16px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 22px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -17px;
+                                font-size: 22px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 0px;
+
+                              i {
+                                font-size: 70px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+
+                    &:hover {
+                      .interview-text-content {
+
+                        .interview-text-content-bg {
+                          margin-top: -100px;
+                          margin-bottom: 0px;
+                          background-color: #24b1c4;
+                          height: auto;
+                          padding: 10px 10px 0px 20px;
+
+                          .text-content-bg-flex {
+
+                            .description-text {
+                              flex-basis: 80%;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                                &.desc-1 {
+                                  color: white;
+                                  font-size: 16px;
+                                }
+
+                                &.desc-2 {
+                                  color: white;
+                                  margin-top: -14px;
+                                  font-size: 16px;
+                                }
+
+                                &.desc-3 {
+                                  letter-spacing: 1px;
+                                  font-size: 22px;
+                                  color: white;
+                                  margin-top: -2px;
+                                }
+
+                                &.desc-4 {
+                                  font-weight: 100;
+                                  margin-top: -17px;
+                                  font-size: 22px;
+                                  color: white;
+                                }
+                              }
+                            }
+
+                            .arrow-text {
+                              flex-basis: 20%;
+
+                              .arrow-text-content {
+                                padding-top: 0px;
+
+                                i {
+                                  font-size: 70px;
+                                  color: white;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+
+                    }
+                  }
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .interview-section-2 {
+    margin-top: 1660px;
+    padding-right: 50px;
+    margin-bottom: -80px;
+
+    .interview-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/interview-bg-blue.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 60px 45px 100px 100px;
+      width: 100%;
+      height: 1700px;
+
+      .container {
+        .interview-section-2-body {
+          .interview-section-2-body-content {
+            .row {
+              .col {
+                .interview-image {
+                  .interview-image-content {
+                    img {
+                      width: 95%;
+                      height: auto;
+                    }
+                  }
+
+                  .interview-text-content {
+                    position: relative;
+                    z-index: 900;
+                    margin: 0 auto;
+                    max-width: 90%;
+                    padding-right: 60px;
+
+                    .interview-text-content-bg {
+                      margin-top: -80px;
+                      margin-bottom: 40px;
+                      background-color: rgba(255, 255, 255, 0.836);
+                      height: 170px;
+                      padding: 10px 10px 10px 20px;
+
+                      .text-content-bg-flex {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+
+                        .description-text {
+                          flex-basis: 80%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.desc-1 {
+                              color: black;
+                              font-size: 15px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -8px;
+                              font-size: 15px;
+                            }
+
+                            &.desc-3 {
+                              letter-spacing: 1px;
+                              font-size: 20px;
+                              color: #24b1c4;
+                              margin-top: -2px;
+                            }
+
+                            &.desc-4 {
+                              font-weight: 100;
+                              margin-top: -10px;
+                              font-size: 18px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+
+                        .arrow-text {
+                          flex-basis: 20%;
+
+                          .arrow-text-content {
+                            padding-top: 50px;
+
+                            i {
+                              font-size: 60px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Styles */
+}
+
+@media only screen and (max-width: 1285px) {
+
+  .interview-section-1 {
+    margin-top: -90px;
+
+    .interview-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/interview-bg-white.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 200px 20px 100px 20px;
+      width: 100%;
+      height: 1280px;
+
+      .container {
+        .interview-section-1-title {
+          .interview-section-1-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              text-align: center;
+
+              &.title-content-1 {
+                font-size: 15px;
+              }
+
+              &.title-content-2 {
+                font-size: 15px;
+                margin-top: -10px;
+              }
+            }
+          }
+        }
+
+        .interview-section-1-body {
+          padding-top: 30px;
+
+          .interview-section-1-body-content {
+            .row-area {
+              .col-area {
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: -3px;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: absolute;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+
+                      .interview-text-content-bg {
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 10px 10px 10px 20px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 11px;
+                              }
+
+                              &.desc-2 {
+                                margin-top: -8px;
+                                font-size: 10px;
+                                color: black;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 16px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 12px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 0px;
+
+                              i {
+                                font-size: 40px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+
+                    &:hover {
+                      .interview-text-content {
+                        position: absolute;
+                        z-index: 900;
+                        margin: 0 auto;
+                        max-width: 100%;
+
+                        .interview-text-content-bg {
+                          background-color: #24b1c4;
+                          height: auto;
+                          padding: 10px 10px 10px 20px;
+
+                          .text-content-bg-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .description-text {
+                              flex-basis: 80%;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                                &.desc-1 {
+                                  color: white;
+                                  font-size: 11px;
+                                }
+
+                                &.desc-2 {
+                                  margin-top: -8px;
+                                  font-size: 10px;
+                                  color: white;
+                                }
+
+                                &.desc-3 {
+                                  letter-spacing: 1px;
+                                  font-size: 16px;
+                                  color: white;
+                                  margin-top: -2px;
+                                }
+
+                                &.desc-4 {
+                                  font-weight: 100;
+                                  margin-top: -10px;
+                                  font-size: 12px;
+                                  color: white;
+                                }
+                              }
+                            }
+
+                            .arrow-text {
+                              flex-basis: 20%;
+
+                              .arrow-text-content {
+                                padding-top: 0px;
+
+                                i {
+                                  font-size: 40px;
+                                  color: white;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .interview-section-2 {
+    margin-top: 1100px;
+    padding-right: 50px;
+    margin-bottom: -100px;
+
+    .interview-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/interview-bg-blue.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 60px 45px 100px 100px;
+      width: 100%;
+      height: 1070px;
+      margin-bottom: 100px;
+
+      .container {
+        .interview-section-2-body {
+          .interview-section-2-body-content {
+            .row {
+              .col {
+                .interview-image {
+                  .interview-image-content {
+                    img {
+                      width: 95%;
+                      height: auto;
+                    }
+                  }
+
+                  .interview-text-content {
+                    position: relative;
+                    z-index: 900;
+                    margin: 0 auto;
+                    max-width: 90%;
+                    padding-right: 15px;
+
+                    .interview-text-content-bg {
+                      margin-top: -80px;
+                      margin-bottom: 40px;
+                      background-color: rgba(255, 255, 255, 0.836);
+                      height: 100px;
+                      padding: 10px 10px 10px 20px;
+
+                      .text-content-bg-flex {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+
+                        .description-text {
+                          flex-basis: 80%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.desc-1 {
+                              color: black;
+                              font-size: 9px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -8px;
+                              font-size: 9px;
+                            }
+
+                            &.desc-3 {
+                              letter-spacing: 1px;
+                              font-size: 14px;
+                              color: #24b1c4;
+                              margin-top: -2px;
+                            }
+
+                            &.desc-4 {
+                              font-weight: 100;
+                              margin-top: -10px;
+                              font-size: 10px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+
+                        .arrow-text {
+                          flex-basis: 20%;
+
+                          .arrow-text-content {
+                            padding-top: 25px;
+
+                            i {
+                              font-size: 30px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  // InterView Page
+
+
+  .interview-section-1 {
+    margin-top: -120px;
+
+    .interview-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/interview-bg-white.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 200px 5px 100px 5px;
+      width: 100%;
+      height: 1100px;
+
+      .container {
+        .interview-section-1-title {
+          .interview-section-1-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              text-align: center;
+
+              &.title-content-1 {
+                font-size: 10px;
+              }
+
+              &.title-content-2 {
+                font-size: 10px;
+                margin-top: -10px;
+              }
+            }
+          }
+        }
+
+        .interview-section-1-body {
+          padding-top: 30px;
+
+          .interview-section-1-body-content {
+            .row-area {
+              .col-area {
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: absolute;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+
+                      .interview-text-content-bg {
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 10px 10px 10px 20px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 9px;
+                              }
+
+                              &.desc-2 {
+                                color: black;
+                                margin-top: -8px;
+                                font-size: 7px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 14px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 10px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 0px;
+
+                              i {
+                                font-size: 40px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+
+                    &:hover {
+                      .interview-text-content {
+                        position: absolute;
+                        z-index: 900;
+                        margin: 0 auto;
+                        max-width: 100%;
+
+                        .interview-text-content-bg {
+
+                          .text-content-bg-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .description-text {
+                              flex-basis: 80%;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                                &.desc-1 {
+                                  color: white;
+                                  font-size: 9px;
+                                }
+
+                                &.desc-2 {
+                                  margin-top: -8px;
+                                  font-size: 7px;
+                                }
+
+                                &.desc-3 {
+                                  letter-spacing: 1px;
+                                  font-size: 14px;
+                                  color: white;
+                                  margin-top: -2px;
+                                }
+
+                                &.desc-4 {
+                                  font-weight: 100;
+                                  margin-top: -10px;
+                                  font-size: 10px;
+                                  color: white;
+                                }
+                              }
+                            }
+
+                            .arrow-text {
+                              flex-basis: 20%;
+
+                              .arrow-text-content {
+                                padding-top: 0px;
+
+                                i {
+                                  font-size: 40px;
+                                  color: white;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .interview-section-2 {
+    margin-top: 950px;
+    padding-right: 40px;
+    margin-bottom: -130px;
+
+
+    .interview-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/interview-bg-blue.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 60px 0px 100px 0px;
+      width: 100%;
+      height: 900px;
+
+      .container {
+        .interview-section-2-body {
+          .interview-section-2-body-content {
+            margin-left: 10px;
+
+            .row-area {
+              .col-area {
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: relative;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 90%;
+                      padding-right: 15px;
+
+                      .interview-text-content-bg {
+                        margin-top: -80px;
+                        margin-bottom: 40px;
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: 100px;
+                        padding: 10px 10px 10px 20px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 8px;
+                              }
+
+                              &.desc-2 {
+                                margin-top: -8px;
+                                font-size: 8px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 14px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 10px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 25px;
+
+                              i {
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 376px) and (max-width : 736px) {
+
+  .interview-section-1 {
+    margin-top: -85px;
+
+    .interview-section-1-bg {
+      position: absolute;
+      background-image: url("../images/sp/interview/8.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 130px 10px 10px 10px;
+      width: 100%;
+      height: 1050px;
+
+      .container {
+        max-width: 90%;
+
+        .interview-section-1-title {
+          .interview-section-1-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              text-align: center;
+              font-weight: 550;
+
+              &.title-content-1 {
+                font-size: 12px;
+              }
+
+              &.title-content-2 {
+                font-size: 12px;
+                margin-top: -10px;
+              }
+            }
+          }
+        }
+
+        .interview-section-1-body {
+          padding-top: 30px;
+
+          .interview-section-1-body-content {
+            .row-area {
+              .col-area {
+                flex-basis: 48%;
+                padding-left: 0px;
+
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: absolute;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+
+                      .interview-text-content-bg {
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 5px 5px 0px 10px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 8px;
+                              }
+
+                              &.desc-2 {
+                                color: black;
+                                margin-top: -8px;
+                                font-size: 5.1px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 13px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 10px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 0px;
+
+                              i {
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+
+                    &:hover {
+                      .interview-text-content {
+                        .interview-text-content-bg {
+
+                          padding: 5px 5px 0px 10px;
+
+                          .text-content-bg-flex {
+
+                            .description-text {
+                              flex-basis: 80%;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                                &.desc-1 {
+                                  color: white;
+                                  font-size: 8px;
+                                }
+
+                                &.desc-2 {
+                                  color: white;
+                                  margin-top: -8px;
+                                  font-size: 5.5px;
+                                }
+
+                                &.desc-3 {
+                                  letter-spacing: 1px;
+                                  font-size: 13px;
+                                  color: white;
+                                  margin-top: -2px;
+                                }
+
+                                &.desc-4 {
+                                  font-weight: 100;
+                                  margin-top: -10px;
+                                  font-size: 10px;
+                                  color: white;
+                                }
+                              }
+                            }
+
+                            .arrow-text {
+                              flex-basis: 20%;
+
+                              .arrow-text-content {
+                                padding-top: 0px;
+                                padding-left: 10px;
+
+                                i {
+                                  font-size: 30px;
+                                  color: white;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .interview-section-2 {
+    margin-top: 950px;
+    padding-right: 0px;
+    margin-bottom: -35px;
+
+    .interview-section-2-bg {
+      position: relative;
+      background-image: url("../images/sp/interview/7.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 70px 10px 100px 10px;
+      width: 100%;
+      height: 1050px;
+      margin-bottom: -100px;
+
+      .container {
+        .interview-section-2-body {
+          .interview-section-2-body-content {
+            .row-area {
+              .col-area {
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: relative;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+                      padding-right: 0px;
+
+                      .interview-text-content-bg {
+                        margin-top: -78px;
+                        margin-bottom: 20px;
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 10px 10px 0px 20px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 5px;
+                              }
+
+                              &.desc-2 {
+                                margin-top: 0px;
+                                font-size: 5px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 10px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 8px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 25px;
+
+                              i {
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 375px) {
+  .interview-section-1 {
+    margin-top: -85px;
+
+    .interview-section-1-bg {
+      position: absolute;
+      background-image: url("../images/sp/interview/8.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 130px 0px 10px 0px;
+      width: 100%;
+      height: 940px;
+
+      .container {
+        max-width: 90%;
+
+        .interview-section-1-title {
+          .interview-section-1-title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              text-align: center;
+              font-weight: 550;
+
+              &.title-content-1 {
+                font-size: 12px;
+              }
+
+              &.title-content-2 {
+                font-size: 12px;
+                margin-top: -10px;
+              }
+            }
+          }
+        }
+
+        .interview-section-1-body {
+          padding-top: 30px;
+
+          .interview-section-1-body-content {
+            .row-area {
+              .col-area {
+                flex-basis: 48%;
+                padding-left: 0;
+
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: absolute;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+
+                      .interview-text-content-bg {
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 5px 5px 0px 10px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 8px;
+                              }
+
+                              &.desc-2 {
+                                color: black;
+                                margin-top: -8px;
+                                font-size: 5.1px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 13px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 10px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 0px;
+
+                              i {
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+
+                    &:hover {
+                      .interview-text-content {
+                        .interview-text-content-bg {
+                          background-color: #24b1c4;
+                          padding: 5px 5px 0px 10px;
+
+                          .text-content-bg-flex {
+
+                            .description-text {
+                              flex-basis: 80%;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                                &.desc-1 {
+                                  color: white;
+                                  font-size: 8px;
+                                }
+
+                                &.desc-2 {
+                                  color: white;
+                                  margin-top: -8px;
+                                  font-size: 5.1px;
+                                }
+
+                                &.desc-3 {
+                                  letter-spacing: 1px;
+                                  font-size: 13px;
+                                  color: white;
+                                  margin-top: -2px;
+                                }
+
+                                &.desc-4 {
+                                  font-weight: 100;
+                                  margin-top: -10px;
+                                  font-size: 10px;
+                                  color: white;
+                                }
+                              }
+                            }
+
+                            .arrow-text {
+                              flex-basis: 20%;
+
+                              .arrow-text-content {
+                                padding-top: 0px;
+                                padding-left: 10px;
+
+                                i {
+                                  font-size: 30px;
+                                  color: white;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .interview-section-2 {
+    margin-top: 850px;
+    padding-right: 0px;
+    margin-bottom: -35px;
+
+    .interview-section-2-bg {
+      position: relative;
+      background-image: url("../images/sp/interview/7.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 70px 10px 100px 10px;
+      width: 100%;
+      height: 1100px;
+      margin-bottom: -30px;
+
+      .container {
+        .interview-section-2-body {
+          .interview-section-2-body-content {
+            .row-area {
+              .col-area {
+                a {
+                  .interview-image {
+                    .interview-image-content {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .interview-text-content {
+                      position: relative;
+                      z-index: 900;
+                      margin: 0 auto;
+                      max-width: 100%;
+                      padding-right: 0px;
+
+                      .interview-text-content-bg {
+                        margin-top: -78px;
+                        margin-bottom: 20px;
+                        background-color: rgba(255, 255, 255, 0.836);
+                        height: auto;
+                        padding: 10px 10px 0px 20px;
+
+                        .text-content-bg-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .description-text {
+                            flex-basis: 80%;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                              &.desc-1 {
+                                color: black;
+                                font-size: 5px;
+                              }
+
+                              &.desc-2 {
+                                margin-top: 0px;
+                                font-size: 5px;
+                              }
+
+                              &.desc-3 {
+                                letter-spacing: 1px;
+                                font-size: 10px;
+                                color: #24b1c4;
+                                margin-top: -2px;
+                              }
+
+                              &.desc-4 {
+                                font-weight: 100;
+                                margin-top: -10px;
+                                font-size: 8px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+
+                          .arrow-text {
+                            flex-basis: 20%;
+
+                            .arrow-text-content {
+                              padding-top: 25px;
+
+                              i {
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

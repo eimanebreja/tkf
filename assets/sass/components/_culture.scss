@@ -1,0 +1,4545 @@
+.culture-section-1 {
+  margin-top: -90px;
+
+  .culture-section-1-bg {
+    position: absolute;
+    background-image: url("../images/pc/culture/blue-bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding: 150px 90px 100px 90px;
+    width: 100%;
+    height: 1220px;
+
+    .container {
+      max-width: 80%;
+      margin: 0 auto;
+
+      .culture-section-1-title {
+        padding-top: 60px;
+
+        .culture-section-1-title-content {
+          .title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: white;
+              text-align: center;
+
+              &.title-1 {
+                font-size: 22px;
+                font-weight: 600;
+              }
+
+              &.title-2 {
+                margin-top: -15px;
+                font-size: 12px;
+                font-weight: 100;
+                font-style: italic;
+              }
+            }
+
+            hr {
+              width: 2%;
+              margin-top: 0px;
+              border: 1px solid white;
+            }
+          }
+        }
+      }
+
+      .culture-section-1-body {
+        padding-top: 40px;
+
+        .culture-section-1-title-content {
+          .row-content {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .col-content {
+              margin-top: 20px;
+              flex-basis: 30%;
+
+              .culture-section-white-bg {
+                .culture-bg-content {
+                  background-color: white;
+                  width: 100%;
+                  height: 270px;
+                  padding: 10px 10px 10px 10px;
+
+                  .culture-bg-border {
+                    border: 1px solid #24b1c4;
+                    height: 250px;
+
+                    .culture-bg-border-content {
+                      .border-content-area {
+                        .border-content-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .flex-text {
+                            flex-basis: 60%;
+
+                            .flex-text-area {
+                              .blue-bg {
+                                background-color: #24b1c4;
+                                width: 70%;
+
+                                p {
+                                  font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                  text-align: center;
+                                  padding: 2px 2px 2px 2px;
+                                  font-size: 15px;
+                                  color: white;
+                                }
+                              }
+
+                              .layer-2 {
+                                padding-left: 20px;
+
+                                p {
+                                  font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                  font-size: 15px;
+                                  font-weight: 550;
+                                }
+                              }
+
+                              .layer-3 {
+                                padding-left: 20px;
+                                margin-top: -40px;
+
+                                p {
+                                  font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                  padding-left: 10px;
+                                  color: #24b1c4;
+                                  font-size: 40px;
+                                  font-style: italic;
+
+                                  span {
+                                    font-weight: 550;
+                                    padding-left: 10px;
+                                    font-style: normal;
+                                    font-size: 12px;
+                                    color: black;
+                                  }
+                                }
+                              }
+
+                              .layer-4 {
+                                margin-top: -40px;
+                                padding-left: 20px;
+
+                                p {
+                                  font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                  text-align: left;
+                                  padding-right: 20px;
+
+                                  span {
+                                    &.text-1 {
+                                      font-weight: 550;
+                                      font-size: 10px;
+                                    }
+
+                                    &.text-2 {
+                                      font-size: 20px;
+                                      color: #24b1c4;
+                                      font-weight: 550;
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          .flex-icon {
+                            flex-basis: 50%;
+
+                            .flex-icon-image {
+                              padding-top: 20px;
+                              padding-right: 10px;
+
+                              img {
+                                width: 90%;
+                                height: auto;
+                              }
+                            }
+                          }
+                        }
+
+                        .description {
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: .7vw;
+
+                            &.sub-1 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+                      }
+
+                      .culture-bg-text {
+                        background-color: #24b1c4;
+                        width: 43%;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+                          padding: 2px 2px 2px 20px;
+                          font-size: 15px;
+                          color: white;
+                        }
+                      }
+
+                      .culture-icon {
+                        margin-top: -18px;
+                        padding-left: 40px;
+
+                        img {
+                          width: 40%;
+                        }
+                      }
+
+                      .culture-text-number {
+                        margin-top: -40px;
+                        margin-left: 30px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: center;
+
+                          span {
+                            &.text-1 {
+                              font-size: 40px;
+                              color: #24b1c4;
+                              font-style: italic;
+                            }
+
+                            &.text-2 {
+                              font-weight: 550;
+                              padding-left: 10px;
+                            }
+                          }
+                        }
+                      }
+
+                      .culture-description {
+                        padding-left: 20px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+
+                          &.desc-1 {
+                            font-size: .7vw;
+                          }
+
+                          &.desc-2 {
+                            margin-top: -10px;
+                            font-size: .7vw;
+                          }
+
+                          &.desc-3 {
+                            margin-top: -10px;
+                            font-size: .7vw;
+                          }
+                        }
+                      }
+
+                      .culture-bg-text1 {
+                        background-color: #24b1c4;
+                        width: 65%;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+                          padding: 2px 2px 2px 20px;
+                          font-size: 15px;
+                          color: white;
+                        }
+                      }
+
+                      .culture-image-icon2 {
+                        margin-right: 20px;
+                        text-align: right;
+
+                        img {
+                          width: 40%;
+                        }
+                      }
+
+                      .culture-text-number2 {
+                        margin-top: -60px;
+                        margin-left: 25px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                          &.number {
+                            font-size: 40px;
+                            color: #24b1c4;
+                            font-style: italic;
+                          }
+
+                          &.text {
+                            font-weight: 550;
+                            margin-top: -50px;
+                            font-size: 14px;
+                          }
+                        }
+                      }
+
+                      .culture-description1 {
+                        padding-left: 20px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+
+                          &.desc-1 {
+                            font-size: .7vw;
+                          }
+
+                          &.desc-2 {
+                            margin-top: -10px;
+                            font-size: .7vw;
+                          }
+                        }
+                      }
+
+                      .culture-text-top {
+                        margin-top: -15px;
+                        background-color: #24b1c4;
+                        width: 50%;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+                          padding: 2px 2px 2px 20px;
+                          font-size: 15px;
+                          color: white;
+                        }
+                      }
+
+                      .culture-content-4-flex {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+
+                        .culture-ball {
+                          flex-basis: 50%;
+                          text-align: center;
+
+                          .culture-ball-icon {
+                            img {
+                              width: 50%;
+                            }
+                          }
+
+                          .culture-ball-text {
+                            margin-top: -10px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              font-size: 13px;
+                              font-weight: 550;
+                            }
+                          }
+
+                          .culture-ball-percent {
+                            margin-top: -10px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              font-style: italic;
+
+                              span {
+                                &.text-1 {
+                                  color: #24b1c4;
+                                  font-size: 30px;
+                                }
+
+                                &.text-2 {
+                                  font-weight: 550;
+                                  font-size: 14px;
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-book {
+                          flex-basis: 50%;
+                          text-align: center;
+
+                          .culture-book-icon {
+                            img {
+                              width: 50%;
+                            }
+                          }
+
+                          .culture-book-text {
+                            margin-top: -10px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              font-size: 13px;
+                              font-weight: 550;
+                            }
+                          }
+
+                          .culture-book-percent {
+                            margin-top: -10px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              font-style: italic;
+
+                              span {
+                                &.text-1 {
+                                  color: #24b1c4;
+                                  font-size: 30px;
+                                }
+
+                                &.text-2 {
+                                  font-size: 14px;
+                                  font-weight: 550;
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+
+                      .culture-text-description4 {
+                        margin-top: -20px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: center;
+
+                          &.text-1 {
+                            font-size: .7vw;
+                          }
+
+                          &.text-2 {
+                            margin-top: -10px;
+                            font-size: .7vw;
+                          }
+                        }
+                      }
+
+                      .culture-text-top5 {
+                        margin-top: -15px;
+                        background-color: #24b1c4;
+                        width: 43%;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+                          padding: 2px 2px 2px 20px;
+                          font-size: 15px;
+                          color: white;
+                        }
+                      }
+
+                      .culture-content-icon {
+                        margin-top: -20px;
+                        padding-right: 20px;
+                        text-align: right;
+
+                        img {
+                          display: inline-block;
+                          width: 40%;
+                        }
+                      }
+
+                      .culture-content-icon-text {
+                        margin-top: -40px;
+                        padding-left: 20px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          font-size: 14px;
+                          font-weight: 550;
+
+                          &.text-1 {
+                            span {
+                              font-style: italic;
+                              font-size: 35px;
+                              color: #24b1c4;
+                              font-weight: 500;
+                            }
+                          }
+
+                          &.text-2 {
+                            font-weight: 550;
+                            margin-top: -20px;
+
+                            span {
+                              font-size: 20px;
+                              color: #24b1c4;
+                            }
+                          }
+                        }
+                      }
+
+                      .culture-text-description5 {
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: center;
+                          font-size: .7vw;
+
+                          &.text-1 {}
+
+                          &.text-2 {
+                            margin-top: -10px;
+                          }
+
+                          &.text-3 {
+                            margin-top: -10px;
+                          }
+                        }
+                      }
+
+                      .culture-text-top6 {
+                        margin-top: -15px;
+                        background-color: #24b1c4;
+                        width: 56%;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: left;
+                          padding: 2px 2px 2px 20px;
+                          font-size: 15px;
+                          color: white;
+                        }
+                      }
+
+                      .culture-content-icon6 {
+                        padding-left: 20px;
+
+                        img {
+                          width: 40%;
+                        }
+                      }
+
+                      .culture-content-icon-text6 {
+                        margin-top: -40px;
+                        padding-right: 20px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: right;
+                          font-size: 14px;
+                          font-weight: 550;
+
+                          span {
+                            font-weight: 500;
+                            padding-right: 5px;
+                            color: #24b1c4;
+                            font-size: 30px;
+                            font-style: italic;
+                          }
+                        }
+                      }
+
+                      .culture-text-description6 {
+                        padding-top: 0px;
+
+                        p {
+                          font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                          text-align: center;
+                          font-size: .7vw;
+
+
+                          &.text-1 {}
+
+                          &.text-2 {
+                            margin-top: -10px;
+                          }
+
+                          &.text-3 {
+                            margin-top: -10px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.culture-section-2 {
+  margin-top: 1000px;
+  padding-right: 50px;
+  margin-bottom: -0px;
+
+  .culture-section-2-bg {
+    position: relative;
+    background-image: url("../images/pc/culture/white-bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    padding: 150px 100px 100px 100px;
+    width: 100%;
+    height: 1290px;
+    margin-bottom: 50px;
+
+    .container {
+      max-width: 80%;
+      margin: 0 auto;
+
+      .culture-section-2-title {
+        padding-top: 60px;
+
+        .culture-section-2-title-content {
+          .title-content {
+            p {
+              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+              color: #24b1c4;
+              text-align: center;
+
+              &.title-1 {
+                font-weight: 600;
+                font-size: 25px;
+              }
+
+              &.title-2 {
+                margin-top: -15px;
+                font-size: 12px;
+                font-weight: 100;
+                font-style: italic;
+              }
+            }
+
+            hr {
+              width: 2%;
+              margin-top: 0px;
+              border: 1px solid #24b1c4;
+            }
+          }
+        }
+      }
+
+      .culture-gallery {
+        padding-top: 40px;
+
+        .culture-gallery-content {
+          display: block;
+
+          .gallery-employee {
+            img {
+              width: 100%;
+            }
+          }
+
+          .gallery-flex {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            .gallery-1 {
+              .gallery-content {
+                padding: 10px 10px 5px 10px;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-content-sub {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                .gallery-content-sub-1 {
+                  padding: 10px 10px 10px 10px;
+                  flex-basis: 47%;
+
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+
+                .gallery-content-sub-2 {
+                  padding: 10px 10px 10px 10px;
+                  flex-basis: 53%;
+
+                  .sub-content-area {
+                    img {
+                      width: 100%;
+                      height: auto;
+                    }
+                  }
+
+                  .sub-content-area-2 {
+                    img {
+                      width: 40%;
+                    }
+                  }
+                }
+              }
+            }
+
+            .gallery-2 {
+              padding: 10px 10px 10px 10px;
+
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+
+          .gallery-flex2 {
+            margin-top: -180px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            .gallery-hidden {
+              flex-basis: 27%;
+              padding: 10px 10px 10px 10px;
+              text-align: right;
+
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+
+            .gallery-3 {
+              flex-basis: 35%;
+              padding: 10px 10px 10px 10px;
+              text-align: right;
+
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+
+            .gallery-4 {
+              flex-basis: 35%;
+              padding: 10px 10px 10px 10px;
+              text-align: right;
+
+              img {
+                width: 100%;
+                height: 150px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .culture-gallery-sp-content {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 2000px) {
+
+
+
+  .culture-section-1 {
+    margin-top: -6%;
+
+    .culture-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/culture/blue-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 150px 90px 100px 90px;
+      width: 100%;
+      height: 1680px;
+
+      .container {
+        .culture-section-1-title {
+          padding-top: 60px;
+
+          .culture-section-1-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: white;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 35px;
+                  font-weight: 600;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 20px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 4%;
+                margin-top: 0px;
+                border: 1px solid white;
+              }
+            }
+          }
+        }
+
+        .culture-section-1-body {
+          padding-top: 40px;
+
+          .culture-section-1-title-content {
+            .row-content {
+              .col-content {
+                margin-top: 20px;
+
+                .culture-section-white-bg {
+                  .culture-bg-content {
+                    background-color: white;
+                    width: 100%;
+                    height: 400px;
+                    padding: 10px 10px 10px 10px;
+
+                    .culture-bg-border {
+                      border: 1px solid #24b1c4;
+                      height: 380px;
+
+                      .culture-bg-border-content {
+                        .border-content-area {
+                          .border-content-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .flex-text {
+                              flex-basis: 60%;
+
+                              .flex-text-area {
+                                .blue-bg {
+                                  background-color: #24b1c4;
+                                  width: 70%;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: center;
+                                    padding: 6px 0px 6px 0px;
+                                    font-size: 18px;
+                                    color: white;
+                                  }
+                                }
+
+                                .layer-2 {
+                                  padding-top: 0px;
+                                  padding-left: 30px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    font-size: 25px;
+                                    font-weight: 550;
+                                  }
+                                }
+
+                                .layer-3 {
+                                  padding-left: 50px;
+                                  margin-top: -70px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    padding-left: 10px;
+                                    color: #24b1c4;
+                                    font-size: 60px;
+                                    font-style: italic;
+                                    font-weight: 500;
+
+                                    span {
+                                      font-weight: 550;
+                                      padding-left: 0px;
+                                      font-style: normal;
+                                      font-size: 20px;
+                                      color: black;
+                                    }
+                                  }
+                                }
+
+                                .layer-4 {
+                                  margin-top: -40px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: left;
+                                    padding-left: 50px;
+
+                                    span {
+                                      &.text-1 {
+                                        font-weight: 550;
+                                        font-size: 20px;
+                                      }
+
+                                      &.text-2 {
+                                        font-size: 1.5vw;
+                                        color: #24b1c4;
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+
+                            .flex-icon {
+                              flex-basis: 50%;
+
+                              .flex-icon-image {
+                                padding-top: 20px;
+                                padding-right: 10px;
+
+                                img {
+                                  width: 90%;
+                                  height: auto;
+                                }
+                              }
+                            }
+                          }
+
+                          .description {
+                            padding-top: 5px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              text-align: center;
+                              font-size: .9vw;
+
+                              &.sub-1 {
+                                margin-top: -20px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-bg-text {
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            padding: 6px 0px 6px 0px;
+                            font-size: 18px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-icon {
+                          margin-top: -18px;
+                          padding-left: 40px;
+
+                          img {
+                            width: 45%;
+                          }
+                        }
+
+                        .culture-text-number {
+                          margin-top: -40px;
+                          margin-left: 30px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            span {
+                              &.text-1 {
+                                font-weight: 500;
+                                font-size: 60px;
+                                color: #24b1c4;
+                                font-style: italic;
+                              }
+
+                              &.text-2 {
+                                padding-left: 10px;
+                                font-weight: 550;
+                                font-size: 25px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-description {
+                          margin-top: -15px;
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+
+                            &.desc-1 {
+                              font-size: .9vw;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -20px;
+                              font-size: .9vw;
+                            }
+
+                            &.desc-3 {
+                              margin-top: -20px;
+                              font-size: .9vw;
+                            }
+                          }
+                        }
+
+                        .culture-bg-text1 {
+                          background-color: #24b1c4;
+                          width: 65%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            padding: 6px 0px 6px 0px;
+                            font-size: 18px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-image-icon2 {
+                          margin-right: 20px;
+                          text-align: right;
+
+                          img {
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-text-number2 {
+                          margin-top: -100px;
+                          margin-left: 25px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.number {
+                              font-size: 60px;
+                              color: #24b1c4;
+                              font-style: italic;
+                            }
+
+                            &.text {
+                              margin-top: -70px;
+                              font-size: 20px;
+                              font-weight: 550;
+                            }
+                          }
+                        }
+
+                        .culture-description1 {
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+
+                            &.desc-1 {
+                              font-size: .9vw;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -20px;
+                              font-size: .9vw;
+                            }
+                          }
+                        }
+
+                        .culture-text-top {
+                          margin-top: -20px;
+                          background-color: #24b1c4;
+                          width: 50%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            padding: 6px 0px 6px 0px;
+                            font-size: 18px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-4-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .culture-ball {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-ball-icon {
+                              img {
+                                width: 60%;
+                              }
+                            }
+
+                            .culture-ball-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 20px;
+                                font-weight: 550;
+                              }
+                            }
+
+                            .culture-ball-percent {
+                              margin-top: -10px;
+
+                              p {
+                                margin-top: -20px;
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+
+
+                                  &.text-1 {
+
+                                    color: #24b1c4;
+                                    font-size: 50px;
+                                    font-weight: 450;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 20px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          .culture-book {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-book-icon {
+                              img {
+                                width: 60%;
+                              }
+                            }
+
+                            .culture-book-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 20px;
+                                font-weight: 550;
+                              }
+                            }
+
+                            .culture-book-percent {
+                              margin-top: -10px;
+
+                              p {
+                                margin-top: -20px;
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+
+
+                                  &.text-1 {
+
+                                    color: #24b1c4;
+                                    font-size: 50px;
+                                    font-weight: 450;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 20px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description4 {
+                          margin-top: -20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.text-1 {
+                              font-size: .9vw;
+                            }
+
+                            &.text-2 {
+                              margin-top: -20px;
+                              font-size: .9vw;
+                            }
+                          }
+                        }
+
+                        .culture-text-top5 {
+                          margin-top: -20px;
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            padding: 6px 0px 6px 0px;
+                            font-size: 18px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon {
+                          margin-top: -20px;
+                          padding-right: 20px;
+                          text-align: right;
+
+                          img {
+                            display: inline-block;
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-content-icon-text {
+                          margin-top: -100px;
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            font-size: 20px;
+                            font-weight: 550;
+
+                            &.text-1 {
+                              span {
+                                font-style: italic;
+                                font-size: 50px;
+                                color: #24b1c4;
+                                font-weight: 500;
+                              }
+                            }
+
+                            &.text-2 {
+
+                              font-weight: 550;
+                              margin-top: -20px;
+
+                              span {
+                                font-weight: 550;
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description5 {
+                          padding-top: 1px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: .9vw;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -20px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -20px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top6 {
+                          margin-top: -20px;
+                          background-color: #24b1c4;
+                          width: 56%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            padding: 6px 0px 6px 0px;
+                            font-size: 18px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon6 {
+                          padding-left: 20px;
+
+                          img {
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-content-icon-text6 {
+                          margin-top: -80px;
+                          padding-right: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: right;
+                            font-size: 25px;
+                            font-weight: 550;
+
+                            span {
+                              padding-right: 5px;
+                              color: #24b1c4;
+                              font-size: 50px;
+                              font-style: italic;
+                              font-weight: 500;
+
+
+                            }
+                          }
+                        }
+
+                        .culture-text-description6 {
+                          padding-top: 0px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: .9vw;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -20px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -20px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .culture-section-2 {
+    margin-top: 1400px;
+    padding-right: 50px;
+    margin-bottom: -0px;
+
+    .culture-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/culture/white-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 300px 100px 100px 100px;
+      width: 100%;
+      height: 1770px;
+
+      .container {
+        .culture-section-2-title {
+          padding-top: 60px;
+
+          .culture-section-2-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #24b1c4;
+                text-align: center;
+
+                &.title-1 {
+                  font-weight: 600;
+                  font-size: 45px;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 20px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 4%;
+                margin-top: 0px;
+                border: 1px solid #24b1c4;
+              }
+            }
+          }
+        }
+
+        .culture-gallery {
+          padding-top: 40px;
+
+          .culture-gallery-content {
+            .gallery-flex {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-1 {
+                .gallery-content {
+                  padding: 10px 10px 5px 10px;
+
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+
+                .gallery-content-sub {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+
+                  .gallery-content-sub-1 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 47%;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                    }
+                  }
+
+                  .gallery-content-sub-2 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 53%;
+
+                    .sub-content-area {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .sub-content-area-2 {
+                      img {
+                        width: 40%;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .gallery-2 {
+                padding: 10px 10px 10px 10px;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+
+            .gallery-flex2 {
+              margin-top: -230px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-hidden {
+                flex-basis: 27%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-3 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-4 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: 200px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Styles */
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1285px) {
+  .culture-section-1 {
+    margin-top: -90px;
+
+    .culture-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/culture/blue-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 150px 90px 100px 90px;
+      width: 100%;
+      height: 1120px;
+
+      .container {
+        .culture-section-1-title {
+          padding-top: 60px;
+
+          .culture-section-1-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: white;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                  font-weight: 600;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid white;
+              }
+            }
+          }
+        }
+
+        .culture-section-1-body {
+          padding-top: 40px;
+
+          .culture-section-1-title-content {
+            .row-content {
+              .col-content {
+                margin-top: 20px;
+
+                .culture-section-white-bg {
+                  .culture-bg-content {
+                    background-color: white;
+                    width: 100%;
+                    height: 250px;
+                    padding: 10px 10px 10px 10px;
+
+                    .culture-bg-border {
+                      border: 1px solid #24b1c4;
+                      height: 230px;
+
+                      .culture-bg-border-content {
+                        .border-content-area {
+                          .border-content-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .flex-text {
+                              flex-basis: 60%;
+
+                              .flex-text-area {
+                                .blue-bg {
+                                  background-color: #24b1c4;
+                                  width: 70%;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: center;
+                                    padding: 2px 2px 2px 2px;
+                                    font-size: 1.1vw;
+                                    color: white;
+                                  }
+                                }
+
+                                .layer-2 {
+                                  padding-left: 20px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    font-size: 1.1vw;
+                                    font-weight: 550;
+
+                                  }
+                                }
+
+                                .layer-3 {
+                                  padding-left: 5px;
+                                  margin-top: -40px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    padding-left: 10px;
+                                    color: #24b1c4;
+                                    font-size: 3vw;
+                                    font-style: italic;
+
+                                    span {
+                                      font-weight: 550;
+                                      padding-left: 10px;
+                                      font-style: normal;
+                                      font-size: 12px;
+                                      color: black;
+                                    }
+                                  }
+                                }
+
+                                .layer-4 {
+                                  margin-top: -40px;
+                                  padding-left: 20px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: left;
+                                    padding-right: 20px;
+
+                                    span {
+                                      &.text-1 {
+                                        font-weight: 550;
+                                        font-size: 10px;
+                                      }
+
+                                      &.text-2 {
+                                        font-size: 1.3vw;
+                                        color: #24b1c4;
+                                        font-weight: 550;
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+
+                            .flex-icon {
+                              flex-basis: 50%;
+
+                              .flex-icon-image {
+                                padding-top: 20px;
+                                padding-right: 10px;
+
+                                img {
+                                  width: 90%;
+                                  height: auto;
+                                }
+                              }
+                            }
+                          }
+
+                          .description {
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              text-align: center;
+                              font-size: .7vw;
+
+                              &.sub-1 {
+                                margin-top: -10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-bg-text {
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 1.1vw;
+                            color: white;
+                          }
+                        }
+
+                        .culture-icon {
+                          margin-top: -18px;
+                          padding-left: 40px;
+
+                          img {
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-text-number {
+                          margin-top: -40px;
+                          margin-left: 30px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            span {
+                              &.text-1 {
+                                font-size: 40px;
+                                color: #24b1c4;
+                                font-style: italic;
+                              }
+
+                              &.text-2 {
+                                font-weight: 550;
+                                padding-left: 10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-description {
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+
+                            &.desc-1 {
+                              font-size: .7vw;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: .7vw;
+                            }
+
+                            &.desc-3 {
+                              margin-top: -10px;
+                              font-size: .7vw;
+                            }
+                          }
+                        }
+
+                        .culture-bg-text1 {
+                          background-color: #24b1c4;
+                          width: 65%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 1.1vw;
+                            color: white;
+                          }
+                        }
+
+                        .culture-image-icon2 {
+                          margin-right: 20px;
+                          text-align: right;
+
+                          img {
+                            width: 45%;
+                          }
+                        }
+
+                        .culture-text-number2 {
+                          margin-top: -60px;
+                          margin-left: 25px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.number {
+                              font-size: 40px;
+                              color: #24b1c4;
+                              font-style: italic;
+                            }
+
+                            &.text {
+                              font-weight: 550;
+                              margin-top: -50px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-description1 {
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+
+                            &.desc-1 {
+                              font-size: .7vw;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: .7vw;
+                            }
+                          }
+                        }
+
+                        .culture-text-top {
+                          margin-top: -15px;
+                          background-color: #24b1c4;
+                          width: 50%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 1.1vw;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-4-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .culture-ball {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-ball-icon {
+                              img {
+                                width: 60%;
+                              }
+                            }
+
+                            .culture-ball-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                                font-weight: 550;
+                              }
+                            }
+
+                            .culture-ball-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-weight: 550;
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          .culture-book {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-book-icon {
+                              img {
+                                width: 60%;
+                              }
+                            }
+
+                            .culture-book-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                                font-weight: 550;
+                              }
+                            }
+
+                            .culture-book-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                    font-weight: 550;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description4 {
+                          margin-top: -20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.text-1 {
+                              font-size: .7vw;
+                            }
+
+                            &.text-2 {
+                              margin-top: -10px;
+                              font-size: .7vw;
+                            }
+                          }
+                        }
+
+                        .culture-text-top5 {
+                          margin-top: -15px;
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 1.1vw;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon {
+                          margin-top: -20px;
+                          padding-right: 20px;
+                          text-align: right;
+
+                          img {
+                            display: inline-block;
+                            width: 45%;
+                          }
+                        }
+
+                        .culture-content-icon-text {
+                          margin-top: -40px;
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            font-size: 14px;
+                            font-weight: 550;
+
+                            &.text-1 {
+                              span {
+                                font-style: italic;
+                                font-size: 35px;
+                                color: #24b1c4;
+                                font-weight: 500;
+                              }
+                            }
+
+                            &.text-2 {
+                              font-weight: 550;
+                              margin-top: -20px;
+
+                              span {
+                                font-size: 20px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description5 {
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: .7vw;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top6 {
+                          margin-top: -15px;
+                          background-color: #24b1c4;
+                          width: 56%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 1.1vw;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon6 {
+                          padding-left: 20px;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-content-icon-text6 {
+                          margin-top: -40px;
+                          padding-right: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: right;
+                            font-size: 14px;
+                            font-weight: 550;
+
+                            span {
+                              font-weight: 500;
+                              padding-right: 5px;
+                              color: #24b1c4;
+                              font-size: 30px;
+                              font-style: italic;
+                            }
+                          }
+                        }
+
+                        .culture-text-description6 {
+                          padding-top: 0px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: .7vw;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .culture-section-2 {
+    margin-top: 920px;
+    padding-right: 50px;
+    margin-bottom: -0px;
+
+    .culture-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/culture/white-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 130px 100px 100px 100px;
+      width: 100%;
+      height: 1160px;
+
+      .container {
+        .culture-section-2-title {
+          padding-top: 60px;
+
+          .culture-section-2-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #24b1c4;
+
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid #24b1c4;
+              }
+            }
+          }
+        }
+
+        .culture-gallery {
+          .culture-gallery-content {
+            .gallery-flex {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-1 {
+                .gallery-content {
+                  padding: 10px 10px 5px 10px;
+
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+
+                .gallery-content-sub {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+
+                  .gallery-content-sub-1 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 47%;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                    }
+                  }
+
+                  .gallery-content-sub-2 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 53%;
+
+                    .sub-content-area {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .sub-content-area-2 {
+                      img {
+                        width: 40%;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .gallery-2 {
+                padding: 10px 10px 10px 10px;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+
+            .gallery-flex2 {
+              margin-top: -155px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-hidden {
+                flex-basis: 27%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-3 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-4 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: 130px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+
+  .culture-section-1 {
+    margin-top: -110px;
+
+    .culture-section-1-bg {
+      position: absolute;
+      background-image: url("../images/pc/culture/blue-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 100px 10px 100px 10px;
+      width: 100%;
+      height: 1020px;
+
+      .container {
+        .culture-section-1-title {
+          padding-top: 60px;
+
+          .culture-section-1-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: white;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid white;
+              }
+            }
+          }
+        }
+
+        .culture-section-1-body {
+          padding-top: 40px;
+
+          .culture-section-1-title-content {
+            .row-content {
+              .col-content {
+                margin-top: 20px;
+
+                .culture-section-white-bg {
+                  .culture-bg-content {
+                    background-color: white;
+                    width: 100%;
+                    height: auto;
+                    padding: 10px 10px 10px 10px;
+
+                    .culture-bg-border {
+                      border: 1px solid #24b1c4;
+                      height: 250px;
+
+                      .culture-bg-border-content {
+                        .border-content-area {
+                          .border-content-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .flex-text {
+                              flex-basis: 60%;
+
+                              .flex-text-area {
+                                .blue-bg {
+                                  background-color: #24b1c4;
+                                  width: 80%;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: center;
+                                    padding: 2px 2px 2px 2px;
+                                    font-size: 13px;
+                                    color: white;
+                                  }
+                                }
+
+                                .layer-2 {
+                                  padding-left: 10px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    font-size: 13px;
+                                  }
+                                }
+
+                                .layer-3 {
+                                  padding-left: 10px;
+                                  margin-top: -20px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    padding-left: 10px;
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                    font-style: italic;
+
+                                    span {
+                                      padding-left: 10px;
+                                      font-style: normal;
+                                      font-size: 12px;
+                                      color: black;
+                                    }
+                                  }
+                                }
+
+                                .layer-4 {
+                                  margin-top: -20px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: right;
+                                    padding-right: 20px;
+
+                                    span {
+                                      &.text-1 {
+                                        font-size: 10px;
+                                      }
+
+                                      &.text-2 {
+                                        font-size: 20px;
+                                        color: #24b1c4;
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+
+                            .flex-icon {
+                              flex-basis: 40%;
+
+                              .flex-icon-image {
+                                padding-top: 40px;
+                                padding-right: 10px;
+
+                                img {
+                                  width: 100%;
+                                  height: auto;
+                                }
+                              }
+                            }
+                          }
+
+                          .description {
+                            padding-top: 5px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              text-align: center;
+                              font-size: 8px;
+
+                              &.sub-1 {
+                                margin-top: -10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-bg-text {
+                          background-color: #24b1c4;
+                          width: 52%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 13px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-icon {
+                          margin-top: -8px;
+                          padding-left: 20px;
+
+                          img {
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-text-number {
+                          margin-top: -30px;
+                          margin-left: 50px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            span {
+                              &.text-1 {
+                                font-size: 30px;
+                                color: #24b1c4;
+                                font-style: italic;
+                              }
+
+                              &.text-2 {
+                                padding-left: 10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-description {
+                          padding-top: 2px;
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+
+                            &.desc-1 {
+                              font-size: 8px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: 8px;
+                            }
+
+                            &.desc-3 {
+                              margin-top: -10px;
+                              font-size: 8px;
+                            }
+                          }
+                        }
+
+                        .culture-bg-text1 {
+                          background-color: #24b1c4;
+                          width: 80%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 13px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-image-icon2 {
+                          margin-right: 20px;
+                          text-align: right;
+
+                          img {
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-text-number2 {
+                          margin-top: -60px;
+                          margin-left: 15px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.number {
+                              font-size: 30px;
+                              color: #24b1c4;
+                              font-style: italic;
+                            }
+
+                            &.text {
+                              margin-top: -30px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-description1 {
+                          padding-left: 20px;
+                          padding-top: 12px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+
+                            &.desc-1 {
+                              font-size: 8px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: 8px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top {
+                          background-color: #24b1c4;
+                          width: 70%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 13px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-4-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .culture-ball {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-ball-icon {
+                              img {
+                                width: 60%;
+                              }
+                            }
+
+                            .culture-ball-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                              }
+                            }
+
+                            .culture-ball-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          .culture-book {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-book-icon {
+                              img {
+                                width: 60%;
+                              }
+                            }
+
+                            .culture-book-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                              }
+                            }
+
+                            .culture-book-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description4 {
+                          margin-top: -5px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.text-1 {
+                              font-size: 8px;
+                            }
+
+                            &.text-2 {
+                              margin-top: -10px;
+                              font-size: 8px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top5 {
+                          background-color: #24b1c4;
+                          width: 55%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 13px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon {
+                          margin-top: -10px;
+                          padding-right: 10px;
+                          text-align: right;
+
+                          img {
+                            display: inline-block;
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-content-icon-text {
+                          margin-top: -40px;
+                          padding-left: 10px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            font-size: 14px;
+
+                            &.text-1 {
+                              span {
+                                font-style: italic;
+                                font-size: 25px;
+                                color: #24b1c4;
+                              }
+                            }
+
+                            &.text-2 {
+                              margin-top: -20px;
+
+                              span {
+                                font-size: 20px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description5 {
+                          padding-top: 13px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: 8px;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top6 {
+                          background-color: #24b1c4;
+                          width: 65%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 13px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon6 {
+                          padding-left: 20px;
+
+                          img {
+                            width: 50%;
+                          }
+                        }
+
+                        .culture-content-icon-text6 {
+                          margin-top: -25px;
+                          padding-right: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: right;
+                            font-size: 13px;
+
+                            span {
+                              padding-right: 5px;
+                              color: #24b1c4;
+                              font-size: 30px;
+                              font-style: italic;
+                            }
+                          }
+                        }
+
+                        .culture-text-description6 {
+                          padding-top: 5px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: 8px;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .culture-section-2 {
+    margin-top: 920px;
+    padding-right: 50px;
+    margin-bottom: -0px;
+
+    .culture-section-2-bg {
+      position: relative;
+      background-image: url("../images/pc/culture/white-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 140px 20px 0px 20px;
+      width: 100%;
+      height: 910px;
+
+      .container {
+        .culture-section-2-title {
+          padding-top: 0px;
+
+          .culture-section-2-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #24b1c4;
+
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid #24b1c4;
+              }
+            }
+          }
+        }
+
+        .culture-gallery {
+          padding-top: 40px;
+
+          .culture-gallery-content {
+            .gallery-flex {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-1 {
+                .gallery-content {
+                  padding: 10px 10px 5px 10px;
+
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+
+                .gallery-content-sub {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+
+                  .gallery-content-sub-1 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 47%;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                    }
+                  }
+
+                  .gallery-content-sub-2 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 53%;
+
+                    .sub-content-area {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .sub-content-area-2 {
+                      img {
+                        width: 40%;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .gallery-2 {
+                padding: 10px 10px 10px 10px;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+
+            .gallery-flex2 {
+              margin-top: -120px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-hidden {
+                flex-basis: 27%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-3 {
+                flex-basis: 35%;
+                padding: 0px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-4 {
+                flex-basis: 35%;
+                padding: 0px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: 100px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (min-width : 376px) and (max-width : 736px) {
+
+  .culture-section-1 {
+    margin-top: -40px;
+
+    .culture-section-1-bg {
+      position: absolute;
+      background-image: url("../images/sp/culture/top-culture-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 30px 20px 10px 20px;
+      width: 100%;
+      height: 2420px;
+
+      .container {
+        max-width: 90%;
+
+        .culture-section-1-title {
+          padding-top: 40px;
+
+          .culture-section-1-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: white;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid white;
+              }
+            }
+          }
+        }
+
+        .culture-section-1-body {
+          padding-top: 20px;
+
+          .culture-section-1-title-content {
+            .row-content {
+              .col-content {
+                flex-basis: 100%;
+                margin-top: 20px;
+
+                .culture-section-white-bg {
+                  .culture-bg-content {
+                    background-color: white;
+                    width: 100%;
+                    height: 320px;
+                    padding: 10px 10px 10px 10px;
+
+                    .culture-bg-border {
+                      border: 1px solid #24b1c4;
+                      height: 300px;
+
+                      .culture-bg-border-content {
+                        .border-content-area {
+                          .border-content-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .flex-text {
+                              flex-basis: 60%;
+
+                              .flex-text-area {
+                                .blue-bg {
+                                  background-color: #24b1c4;
+                                  width: 70%;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: center;
+                                    padding: 2px 2px 2px 2px;
+                                    font-size: 15px;
+                                    color: white;
+                                  }
+                                }
+
+                                .layer-2 {
+                                  padding-left: 20px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    font-size: 15px;
+                                  }
+                                }
+
+                                .layer-3 {
+                                  padding-left: 20px;
+                                  margin-top: -40px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    padding-left: 10px;
+                                    color: #24b1c4;
+                                    font-size: 40px;
+                                    font-style: italic;
+
+                                    span {
+                                      padding-left: 10px;
+                                      font-style: normal;
+                                      font-size: 12px;
+                                      color: black;
+                                    }
+                                  }
+                                }
+
+                                .layer-4 {
+                                  margin-top: -40px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: right;
+                                    padding-right: 20px;
+
+                                    span {
+                                      &.text-1 {
+                                        font-size: 10px;
+                                      }
+
+                                      &.text-2 {
+                                        font-size: 20px;
+                                        color: #24b1c4;
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+
+                            .flex-icon {
+                              flex-basis: 50%;
+
+                              .flex-icon-image {
+                                padding-top: 20px;
+                                padding-right: 10px;
+
+                                img {
+                                  width: 90%;
+                                  height: auto;
+                                }
+                              }
+                            }
+                          }
+
+                          .description {
+                            padding-top: 20px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              text-align: center;
+                              font-size: 14px;
+
+                              &.sub-1 {
+                                margin-top: -10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-bg-text {
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-icon {
+                          margin-top: -18px;
+                          padding-left: 40px;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-text-number {
+                          margin-top: -40px;
+                          margin-left: 30px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            span {
+                              &.text-1 {
+                                font-size: 40px;
+                                color: #24b1c4;
+                                font-style: italic;
+                              }
+
+                              &.text-2 {
+                                padding-left: 10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-description {
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.desc-1 {
+                              font-size: 14px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: 14px;
+                            }
+
+                            &.desc-3 {
+                              margin-top: -10px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-bg-text1 {
+                          background-color: #24b1c4;
+                          width: 65%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-image-icon2 {
+                          margin-right: 20px;
+                          text-align: right;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-text-number2 {
+                          margin-top: -60px;
+                          margin-left: 25px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.number {
+                              font-size: 40px;
+                              color: #24b1c4;
+                              font-style: italic;
+                            }
+
+                            &.text {
+                              margin-top: -50px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-description1 {
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.desc-1 {
+                              font-size: 14px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top {
+                          background-color: #24b1c4;
+                          width: 50%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-4-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .culture-ball {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-ball-icon {
+                              img {
+                                width: 50%;
+                              }
+                            }
+
+                            .culture-ball-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                              }
+                            }
+
+                            .culture-ball-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          .culture-book {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-book-icon {
+                              img {
+                                width: 50%;
+                              }
+                            }
+
+                            .culture-book-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                              }
+                            }
+
+                            .culture-book-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description4 {
+                          margin-top: -20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.text-1 {
+                              font-size: 14px;
+                            }
+
+                            &.text-2 {
+                              margin-top: -10px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top5 {
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon {
+                          margin-top: -20px;
+                          padding-right: 20px;
+                          text-align: right;
+
+                          img {
+                            display: inline-block;
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-content-icon-text {
+                          margin-top: -40px;
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            font-size: 14px;
+
+                            &.text-1 {
+                              span {
+                                font-style: italic;
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+
+                            &.text-2 {
+                              margin-top: -20px;
+
+                              span {
+                                font-size: 20px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description5 {
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: 14px;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top6 {
+                          background-color: #24b1c4;
+                          width: 56%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon6 {
+                          padding-left: 20px;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-content-icon-text6 {
+                          margin-top: -40px;
+                          padding-right: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: right;
+                            font-size: 14px;
+
+                            span {
+                              padding-right: 5px;
+                              color: #24b1c4;
+                              font-size: 30px;
+                              font-style: italic;
+                            }
+                          }
+                        }
+
+                        .culture-text-description6 {
+                          p {
+                            text-align: center;
+                            font-size: 14px;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .culture-section-2 {
+    margin-top: 2290px;
+    padding-right: 0px;
+    margin-bottom: -10px;
+
+    .culture-section-2-bg {
+      position: relative;
+      background-image: url("../images/sp/culture/top-culture-gray.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 50px 0px 100px 0px;
+      width: 100%;
+      height: 1460px;
+
+      .container {
+        .culture-section-2-title {
+          padding-top: 60px;
+
+          .culture-section-2-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #24b1c4;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                  font-weight: 600;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid #24b1c4;
+              }
+            }
+          }
+        }
+
+        .culture-gallery {
+          padding-top: 40px;
+
+          .culture-gallery-content {
+            display: none;
+
+            .gallery-flex {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-1 {
+                .gallery-content {
+                  padding: 10px 10px 5px 10px;
+
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+
+                .gallery-content-sub {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+
+                  .gallery-content-sub-1 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 47%;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                    }
+                  }
+
+                  .gallery-content-sub-2 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 53%;
+
+                    .sub-content-area {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .sub-content-area-2 {
+                      img {
+                        width: 40%;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .gallery-2 {
+                padding: 10px 10px 10px 10px;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+
+            .gallery-flex2 {
+              margin-top: -180px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-hidden {
+                flex-basis: 27%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-3 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-4 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .culture-gallery-sp-content {
+        display: block;
+
+        .culture-gallery-image {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      .culture-gallery-image-2 {
+        .culture-gallery-flex {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+
+          .flex-1 {
+            flex-basis: 43%;
+            padding-right: 5px;
+
+            .flex-1-content {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+
+          .flex-2 {
+            flex-basis: 57%;
+
+            .flex-2-content {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+
+            .content-2 {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+
+      .culture-gallery-image-3 {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .culture-gallery-image-4 {
+        padding-top: 3px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width : 375px) {
+
+
+  .culture-section-1 {
+    margin-top: -40px;
+
+    .culture-section-1-bg {
+      position: absolute;
+      background-image: url("../images/sp/culture/top-culture-bg.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 30px 20px 10px 20px;
+      width: 100%;
+      height: 2200px;
+
+      .container {
+        max-width: 95%;
+
+        .culture-section-1-title {
+          padding-top: 40px;
+
+          .culture-section-1-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: white;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid white;
+              }
+            }
+          }
+        }
+
+        .culture-section-1-body {
+          padding-top: 20px;
+
+          .culture-section-1-title-content {
+            .row-content {
+              .col-content {
+                flex-basis: 95%;
+                margin-top: 20px;
+
+                .culture-section-white-bg {
+                  .culture-bg-content {
+                    background-color: white;
+                    width: 100%;
+                    height: 290px;
+                    padding: 10px 10px 10px 10px;
+
+                    .culture-bg-border {
+                      border: 1px solid #24b1c4;
+                      height: 270px;
+
+                      .culture-bg-border-content {
+                        .border-content-area {
+                          .border-content-flex {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+
+                            .flex-text {
+                              flex-basis: 60%;
+
+                              .flex-text-area {
+                                .blue-bg {
+                                  background-color: #24b1c4;
+                                  width: 70%;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: center;
+                                    padding: 2px 2px 2px 2px;
+                                    font-size: 15px;
+                                    color: white;
+                                  }
+                                }
+
+                                .layer-2 {
+                                  padding-left: 20px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    font-size: 15px;
+                                  }
+                                }
+
+                                .layer-3 {
+                                  padding-left: 20px;
+                                  margin-top: -40px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    padding-left: 10px;
+                                    color: #24b1c4;
+                                    font-size: 40px;
+                                    font-style: italic;
+
+                                    span {
+                                      padding-left: 10px;
+                                      font-style: normal;
+                                      font-size: 12px;
+                                      color: black;
+                                    }
+                                  }
+                                }
+
+                                .layer-4 {
+                                  margin-top: -40px;
+
+                                  p {
+                                    font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                    text-align: right;
+                                    padding-right: 20px;
+
+                                    span {
+                                      &.text-1 {
+                                        font-size: 10px;
+                                      }
+
+                                      &.text-2 {
+                                        font-size: 20px;
+                                        color: #24b1c4;
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+
+                            .flex-icon {
+                              flex-basis: 50%;
+
+                              .flex-icon-image {
+                                padding-top: 20px;
+                                padding-right: 10px;
+
+                                img {
+                                  width: 90%;
+                                  height: auto;
+                                }
+                              }
+                            }
+                          }
+
+                          .description {
+                            padding-top: 10px;
+
+                            p {
+                              font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                              text-align: center;
+                              font-size: 12px;
+
+                              &.sub-1 {
+                                margin-top: -10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-bg-text {
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-icon {
+                          margin-top: -18px;
+                          padding-left: 40px;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-text-number {
+                          margin-top: -40px;
+                          margin-left: 30px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            span {
+                              &.text-1 {
+                                font-size: 40px;
+                                color: #24b1c4;
+                                font-style: italic;
+                              }
+
+                              &.text-2 {
+                                padding-left: 10px;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-description {
+                          padding-left: 0px;
+
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.desc-1 {
+                              font-size: 12px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: 12px;
+                            }
+
+                            &.desc-3 {
+                              margin-top: -10px;
+                              font-size: 12px;
+                            }
+                          }
+                        }
+
+                        .culture-bg-text1 {
+                          background-color: #24b1c4;
+                          width: 65%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-image-icon2 {
+                          margin-right: 20px;
+                          text-align: right;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-text-number2 {
+                          margin-top: -60px;
+                          margin-left: 25px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+                            &.number {
+                              font-size: 40px;
+                              color: #24b1c4;
+                              font-style: italic;
+                            }
+
+                            &.text {
+                              margin-top: -50px;
+                              font-size: 14px;
+                            }
+                          }
+                        }
+
+                        .culture-description1 {
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.desc-1 {
+                              font-size: 12px;
+                            }
+
+                            &.desc-2 {
+                              margin-top: -10px;
+                              font-size: 12px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top {
+                          background-color: #24b1c4;
+                          width: 50%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-4-flex {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: nowrap;
+
+                          .culture-ball {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-ball-icon {
+                              img {
+                                width: 50%;
+                              }
+                            }
+
+                            .culture-ball-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                              }
+                            }
+
+                            .culture-ball-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+
+                          .culture-book {
+                            flex-basis: 50%;
+                            text-align: center;
+
+                            .culture-book-icon {
+                              img {
+                                width: 50%;
+                              }
+                            }
+
+                            .culture-book-text {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-size: 13px;
+                              }
+                            }
+
+                            .culture-book-percent {
+                              margin-top: -10px;
+
+                              p {
+                                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                                font-style: italic;
+
+                                span {
+                                  &.text-1 {
+                                    color: #24b1c4;
+                                    font-size: 30px;
+                                  }
+
+                                  &.text-2 {
+                                    font-size: 14px;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description4 {
+                          margin-top: -20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+
+                            &.text-1 {
+                              font-size: 12px;
+                            }
+
+                            &.text-2 {
+                              margin-top: -10px;
+                              font-size: 12px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top5 {
+                          background-color: #24b1c4;
+                          width: 43%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon {
+                          margin-top: -20px;
+                          padding-right: 20px;
+                          text-align: right;
+
+                          img {
+                            display: inline-block;
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-content-icon-text {
+                          margin-top: -40px;
+                          padding-left: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            font-size: 14px;
+
+                            &.text-1 {
+                              span {
+                                font-style: italic;
+                                font-size: 30px;
+                                color: #24b1c4;
+                              }
+                            }
+
+                            &.text-2 {
+                              margin-top: -20px;
+
+                              span {
+                                font-size: 20px;
+                                color: #24b1c4;
+                              }
+                            }
+                          }
+                        }
+
+                        .culture-text-description5 {
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: center;
+                            font-size: 12px;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+
+                        .culture-text-top6 {
+                          background-color: #24b1c4;
+                          width: 56%;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: left;
+                            padding: 2px 2px 2px 20px;
+                            font-size: 15px;
+                            color: white;
+                          }
+                        }
+
+                        .culture-content-icon6 {
+                          padding-left: 20px;
+
+                          img {
+                            width: 40%;
+                          }
+                        }
+
+                        .culture-content-icon-text6 {
+                          margin-top: -40px;
+                          padding-right: 20px;
+
+                          p {
+                            font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                            text-align: right;
+                            font-size: 14px;
+
+                            span {
+                              padding-right: 5px;
+                              color: #24b1c4;
+                              font-size: 30px;
+                              font-style: italic;
+                            }
+                          }
+                        }
+
+                        .culture-text-description6 {
+                          p {
+                            text-align: center;
+                            font-size: 12px;
+
+                            &.text-1 {}
+
+                            &.text-2 {
+                              margin-top: -10px;
+                            }
+
+                            &.text-3 {
+                              margin-top: -10px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .culture-section-2 {
+    margin-top: 2090px;
+    padding-right: 0px;
+    margin-bottom: -10px;
+
+    .culture-section-2-bg {
+      position: relative;
+      background-image: url("../images/sp/culture/top-culture-gray.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      -moz-background-size: cover;
+      padding: 20px 0px 100px 0px;
+      width: 100%;
+      height: 1460px;
+
+      .container {
+        .culture-section-2-title {
+          padding-top: 60px;
+
+          .culture-section-2-title-content {
+            .title-content {
+              p {
+                font-family: 'interstate', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+                color: #24b1c4;
+                text-align: center;
+
+                &.title-1 {
+                  font-size: 22px;
+                  font-weight: 600;
+                }
+
+                &.title-2 {
+                  margin-top: -15px;
+                  font-size: 12px;
+                  font-weight: 100;
+                  font-style: italic;
+                }
+              }
+
+              hr {
+                width: 2%;
+                margin-top: 0px;
+                border: 1px solid #24b1c4;
+              }
+            }
+          }
+        }
+
+        .culture-gallery {
+          padding-top: 40px;
+
+          .culture-gallery-content {
+            display: none;
+
+            .gallery-flex {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-1 {
+                .gallery-content {
+                  padding: 10px 10px 5px 10px;
+
+                  img {
+                    width: 100%;
+                    height: auto;
+                  }
+                }
+
+                .gallery-content-sub {
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: nowrap;
+
+                  .gallery-content-sub-1 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 47%;
+
+                    img {
+                      width: 100%;
+                      height: auto;
+                    }
+                  }
+
+                  .gallery-content-sub-2 {
+                    padding: 10px 10px 10px 10px;
+                    flex-basis: 53%;
+
+                    .sub-content-area {
+                      img {
+                        width: 100%;
+                        height: auto;
+                      }
+                    }
+
+                    .sub-content-area-2 {
+                      img {
+                        width: 40%;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .gallery-2 {
+                padding: 10px 10px 10px 10px;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+
+            .gallery-flex2 {
+              margin-top: -180px;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: nowrap;
+
+              .gallery-hidden {
+                flex-basis: 27%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-3 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+
+              .gallery-4 {
+                flex-basis: 35%;
+                padding: 10px 10px 10px 10px;
+                text-align: right;
+
+                img {
+                  width: 100%;
+                  height: 150px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .culture-gallery-sp-content {
+        display: block;
+
+        .culture-gallery-image {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      .culture-gallery-image-2 {
+        .culture-gallery-flex {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+
+          .flex-1 {
+            flex-basis: 43%;
+            padding-right: 5px;
+
+            .flex-1-content {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+
+          .flex-2 {
+            flex-basis: 57%;
+
+            .flex-2-content {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+
+            .content-2 {
+              img {
+                width: 100%;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+
+      .culture-gallery-image-3 {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .culture-gallery-image-4 {
+        padding-top: 3px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
